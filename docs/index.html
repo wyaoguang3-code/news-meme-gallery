@@ -22,8 +22,11 @@
          font-family: "PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif; }
   header { position: sticky; top: 0; z-index: 10; background: var(--bg);
            padding: 14px 18px 10px; border-bottom: 1px solid var(--chip); }
-  h1 { font-size: 19px; margin-bottom: 10px; }
-  h1 small { color: var(--muted); font-weight: 400; font-size: 12px; margin-left: 8px; }
+  h1 { font-size: 19px; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  h1 small { color: var(--muted); font-weight: 400; font-size: 12px; }
+  #userBar { margin-left: auto; font-size: 12px; color: var(--muted); display: flex; gap: 8px; align-items: center; }
+  #userBar button { border: 1px solid var(--chip); background: transparent; color: var(--text);
+                    border-radius: 8px; padding: 2px 10px; font-size: 12px; cursor: pointer; }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 6px; }
   .chips span.label { color: var(--muted); font-size: 12px; align-self: center; margin-right: 2px; }
   .chip { border: 0; cursor: pointer; background: var(--chip); color: var(--text);
@@ -51,7 +54,6 @@
                  border-radius: 8px; padding: 3px 10px; font-size: 13px; cursor: pointer; }
   .vote button.my { background: var(--chip-on); color: var(--chip-on-text); border-color: var(--chip-on); }
   .vote .n { font-size: 11px; color: var(--muted); }
-  body.novote .vote { display: none; }
   /* lightbox */
   #box { position: fixed; inset: 0; background: rgba(0,0,0,.72); display: none;
          z-index: 50; align-items: center; justify-content: center; padding: 24px; }
@@ -67,11 +69,57 @@
   #box .info .row { font-size: 12px; color: var(--muted); margin-top: 6px; }
   #box .info a { color: inherit; }
   @media (max-width: 640px) { #box .panel { grid-template-columns: 1fr; } }
+  /* auth wall */
+  #gate { position: fixed; inset: 0; background: var(--bg); z-index: 100;
+          display: flex; align-items: center; justify-content: center; padding: 20px; }
+  #gate.hidden { display: none; }
+  #gate .card { background: var(--card); border-radius: 16px; box-shadow: 0 4px 24px var(--shadow);
+                width: 100%; max-width: 380px; padding: 26px; }
+  #gate h2 { font-size: 18px; margin-bottom: 4px; }
+  #gate .sub { color: var(--muted); font-size: 13px; margin-bottom: 16px; }
+  .auth-tabs { display: flex; gap: 6px; margin-bottom: 14px; }
+  .auth-tab { flex: 1; border: 1px solid var(--chip); background: transparent; color: var(--text);
+              border-radius: 8px; padding: 7px 0; cursor: pointer; font-size: 14px; }
+  .auth-tab.active { background: var(--chip-on); color: var(--chip-on-text); border-color: var(--chip-on); }
+  #gate label { display: block; font-size: 13px; color: var(--muted); margin: 10px 0 4px; }
+  #gate input { width: 100%; padding: 9px 10px; border: 1px solid var(--chip); border-radius: 8px;
+                background: transparent; color: var(--text); font-size: 14px; }
+  #gate .err { color: var(--no); font-size: 13px; min-height: 18px; margin-top: 8px; }
+  #gate .note { color: var(--ok); font-size: 13px; min-height: 0; margin-top: 4px; }
+  #gate .go { width: 100%; margin-top: 14px; padding: 10px 0; border: 0; border-radius: 9px;
+              background: var(--chip-on); color: var(--chip-on-text); font-size: 15px; cursor: pointer; }
+  #gate .alt { margin-top: 12px; font-size: 12px; color: var(--muted); text-align: center; }
+  #gate .alt button { border: 0; background: none; color: var(--muted); text-decoration: underline; cursor: pointer; }
 </style>
 </head>
 <body>
+
+<div id="gate">
+  <div class="card">
+    <h2>版本更新 · 每日新聞梗圖庫</h2>
+    <div class="sub">本站僅開放審核名單內的成員瀏覽與投票</div>
+    <div id="gateForm">
+      <div class="auth-tabs">
+        <button class="auth-tab active" data-tab="login">登入</button>
+        <button class="auth-tab" data-tab="signup">註冊</button>
+      </div>
+      <label>Email<input type="email" id="gEmail" autocomplete="username"></label>
+      <label>密碼<input type="password" id="gPwd" minlength="6" autocomplete="current-password"></label>
+      <div class="err" id="gErr"></div>
+      <div class="note" id="gNote"></div>
+      <button class="go" id="gGo">登入</button>
+    </div>
+    <div id="gatePending" style="display:none">
+      <div class="err" style="color:var(--pending)">你的帳號已建立，但還不在審核名單內。<br>請聯絡管理員核准後重新整理。</div>
+      <button class="go" id="gLogout2">登出</button>
+    </div>
+  </div>
+</div>
+
 <header>
-  <h1>版本更新 · 每日新聞梗圖庫<small id="stamp"></small></h1>
+  <h1>版本更新 · 每日新聞梗圖庫<small id="stamp"></small>
+    <span id="userBar" style="display:none"><span id="who"></span><button id="gLogout">登出</button></span>
+  </h1>
   <div class="chips" id="dates"><span class="label">日期</span></div>
   <div class="chips" id="cats"><span class="label">分類</span></div>
   <div class="chips" id="stats"><span class="label">狀態</span></div>
@@ -80,34 +128,102 @@
 
 <div id="box"><div class="panel" id="panel"></div></div>
 
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
-var DATA = [], VOTES = {}, F = { date: "全部", cat: "全部", stat: "全部" };
+var SB_URL = "https://ypkhjcbanfizysdnayee.supabase.co";
+var SB_KEY = "sb_publishable_ZqEDonY9EZvB55YVQzI9vQ_nQPIRDCB";
+var sb = supabase.createClient(SB_URL, SB_KEY);
 
-function loadVotes() {
-  // 只有部署在 Cloudflare（有 /api/vote + Access 登入）時投票才可用；否則整組隱藏
-  return fetch("api/vote").then(function (r) {
-    if (!r.ok) throw 0;
-    return r.json();
-  }).then(function (j) { VOTES = j; }).catch(function () {
-    document.body.classList.add("novote");
-  });
+var DATA = [], VOTES = {}, F = { date: "全部", cat: "全部", stat: "全部" };
+var STAT_LABEL = { approved: "已核准", rejected: "已退件", pending: "待審核" };
+var SESSION = null, MY_EMAIL = "", BOOTED = false;
+
+/* ---------- 登入牆 ---------- */
+var gateTab = "login";
+document.querySelectorAll(".auth-tab").forEach(function (t) {
+  t.onclick = function () {
+    gateTab = t.dataset.tab;
+    document.querySelectorAll(".auth-tab").forEach(function (x) { x.classList.toggle("on", false); x.classList.toggle("active", x === t); });
+    document.getElementById("gGo").textContent = gateTab === "signup" ? "註冊" : "登入";
+    document.getElementById("gPwd").setAttribute("autocomplete", gateTab === "signup" ? "new-password" : "current-password");
+  };
+});
+document.getElementById("gGo").onclick = function () {
+  var email = document.getElementById("gEmail").value.trim();
+  var pwd = document.getElementById("gPwd").value;
+  var err = document.getElementById("gErr"), note = document.getElementById("gNote");
+  err.textContent = ""; note.textContent = "";
+  if (!email || pwd.length < 6) { err.textContent = "請輸入 email 與至少 6 碼密碼"; return; }
+  if (gateTab === "signup") {
+    sb.auth.signUp({ email: email, password: pwd }).then(function (r) {
+      if (r.error) { err.textContent = r.error.message; return; }
+      note.textContent = "註冊成功！請至 " + email + " 收信確認後回來登入。";
+    });
+  } else {
+    sb.auth.signInWithPassword({ email: email, password: pwd }).then(function (r) {
+      if (r.error) { err.textContent = r.error.message; return; }
+    });
+  }
+};
+function doLogout() { sb.auth.signOut(); }
+document.getElementById("gLogout").onclick = doLogout;
+document.getElementById("gLogout2").onclick = doLogout;
+
+function showGate(mode) {
+  document.getElementById("gate").classList.remove("hidden");
+  document.getElementById("gateForm").style.display = mode === "login" ? "" : "none";
+  document.getElementById("gatePending").style.display = mode === "pending" ? "" : "none";
+  document.getElementById("userBar").style.display = "none";
+}
+function hideGate() {
+  document.getElementById("gate").classList.add("hidden");
+  var ub = document.getElementById("userBar");
+  ub.style.display = "";
+  document.getElementById("who").textContent = MY_EMAIL;
 }
 
+function refreshGate() {
+  if (!SESSION) { showGate("login"); return; }
+  MY_EMAIL = (SESSION.user && SESSION.user.email) || "";
+  sb.from("gallery_profiles").select("approved").eq("user_id", SESSION.user.id)
+    .maybeSingle().then(function (r) {
+      if (r.data && r.data.approved) { hideGate(); boot(); }
+      else { showGate("pending"); }
+    });
+}
+sb.auth.getSession().then(function (s) {
+  SESSION = s.data.session; refreshGate();
+});
+sb.auth.onAuthStateChange(function (_e, sess) { SESSION = sess; refreshGate(); });
+
+/* ---------- 投票（Supabase，具名、一人一卡一票） ---------- */
+function loadVotes() {
+  return sb.from("gallery_votes").select("batch,card,verdict,email").then(function (r) {
+    VOTES = {};
+    (r.data || []).forEach(function (v) {
+      var id = v.batch + ":" + v.card;
+      if (!VOTES[id]) VOTES[id] = { ok: 0, no: 0, me: null };
+      VOTES[id][v.verdict] += 1;
+      if (v.email === MY_EMAIL) VOTES[id].me = v.verdict;
+    });
+  });
+}
 function vote(c, verdict) {
   var reason = "";
   if (verdict === "no") reason = prompt("不行的原因？（可留空）") || "";
-  fetch("api/vote", {
-    method: "POST", headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ batch: c.batch, card: c.id, verdict: verdict, reason: reason }),
-  }).then(function (r) {
-    if (!r.ok) throw 0;
-    return loadVotes();
-  }).then(render).catch(function () { alert("投票失敗，請重新整理再試"); });
+  sb.from("gallery_votes").upsert({
+    batch: c.batch, card: c.id, user_id: SESSION.user.id, email: MY_EMAIL,
+    verdict: verdict, reason: reason,
+  }, { onConflict: "batch,card,user_id" }).then(function (r) {
+    if (r.error) { alert("投票失敗：" + r.error.message); return; }
+    loadVotes().then(render);
+  });
 }
-var STAT_LABEL = { approved: "已核准", rejected: "已退件", pending: "待審核" };
 
+/* ---------- 圖庫 ---------- */
 function chips(elId, values, key) {
   var el = document.getElementById(elId);
+  el.querySelectorAll(".chip").forEach(function (c) { c.remove(); });
   values.forEach(function (v) {
     var b = document.createElement("button");
     b.className = "chip" + (F[key] === v ? " on" : "");
@@ -153,15 +269,11 @@ function render() {
 }
 
 function open(c) {
-  var v = Object.keys(c.verdicts || {}).map(function (k) {
-    return k + "：" + c.verdicts[k];
-  }).join("　");
   document.getElementById("panel").innerHTML =
     '<img src="' + c.img + '"><div class="info">' +
     "<h2>" + c.topic + "</h2>" +
     "<pre>" + (c.lines || []).join("\n") + "</pre>" +
     '<div class="row">' + c.category + " · " + c.date + " · " + c.id + "</div>" +
-    (v ? '<div class="row">評審：' + v + "</div>" : "") +
     (c.source ? '<div class="row"><a href="' + c.source + '" target="_blank" rel="noopener">新聞來源 ↗</a></div>' : "") +
     "</div>";
   document.getElementById("box").classList.add("show");
@@ -173,26 +285,30 @@ addEventListener("keydown", function (e) {
   if (e.key === "Escape") document.getElementById("box").classList.remove("show");
 });
 
-Promise.all([
-  fetch("data.json").then(function (r) { return r.json(); }),
-  loadVotes(),
-]).then(function (rs) {
-  var j = rs[0];
-  DATA = j.cards || [];
-  var dates = ["全部"], cats = ["全部"], stats = ["全部"];
-  DATA.forEach(function (c) {
-    if (dates.indexOf(c.date) < 0) dates.push(c.date);
-    if (cats.indexOf(c.category) < 0) cats.push(c.category);
-    var s = STAT_LABEL[c.status];
-    if (stats.indexOf(s) < 0) stats.push(s);
+function boot() {
+  if (BOOTED) { loadVotes().then(render); return; }
+  BOOTED = true;
+  Promise.all([
+    fetch("data.json").then(function (r) { return r.json(); }),
+    loadVotes(),
+  ]).then(function (rs) {
+    var j = rs[0];
+    DATA = j.cards || [];
+    var dates = ["全部"], cats = ["全部"], stats = ["全部"];
+    DATA.forEach(function (c) {
+      if (dates.indexOf(c.date) < 0) dates.push(c.date);
+      if (cats.indexOf(c.category) < 0) cats.push(c.category);
+      var s = STAT_LABEL[c.status];
+      if (stats.indexOf(s) < 0) stats.push(s);
+    });
+    chips("dates", dates, "date");
+    chips("cats", cats, "cat");
+    chips("stats", stats, "stat");
+    document.getElementById("stamp").textContent =
+      "更新：" + new Date(j.generated_at * 1000).toLocaleString("zh-TW");
+    render();
   });
-  chips("dates", dates, "date");
-  chips("cats", cats, "cat");
-  chips("stats", stats, "stat");
-  document.getElementById("stamp").textContent =
-    "更新：" + new Date(j.generated_at * 1000).toLocaleString("zh-TW");
-  render();
-});
+}
 </script>
 </body>
 </html>
