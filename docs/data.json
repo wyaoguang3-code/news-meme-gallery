@@ -1,5 +1,5 @@
 {
- "generated_at": 1785243217,
+ "generated_at": 1785243366,
  "cards": [
   {
    "id": "C9",
@@ -135,6 +135,25 @@
    "img": "cards/0728/C3.webp"
   },
   {
+   "id": "C2",
+   "batch": "0728",
+   "date": "2026-07-28",
+   "category": "財經",
+   "topic": "亞股賣壓與外資匯出拖累新台幣，終場收32.384元、貶7.9分。",
+   "lines": [
+    "版本更新：",
+    "「新台幣」匯率模組被下修",
+    "外資提款觸發熱錢冷卻模組",
+    "收盤32.384守門副本"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607280254.aspx",
+   "img": "cards/0728/C2.webp"
+  },
+  {
    "id": "C10",
    "batch": "0728",
    "date": "2026-07-28",
@@ -152,6 +171,25 @@
    },
    "source": "https://www.cna.com.tw/news/aspt/202607280290.aspx",
    "img": "cards/0728/C10.webp"
+  },
+  {
+   "id": "C1",
+   "batch": "0728",
+   "date": "2026-07-28",
+   "category": "財經",
+   "topic": "惠譽維持台灣長期主權信評AA、展望穩定，肯定審慎財政與AI帶動成長。",
+   "lines": [
+    "版本更新：",
+    "「台灣信評」維持AA模組",
+    "展望穩定數值長期續掛機中",
+    "AI稅收掉落率同步上修中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607280285.aspx",
+   "img": "cards/0728/C1.webp"
   },
   {
    "id": "C9",
@@ -190,6 +228,25 @@
    },
    "source": "https://www.cna.com.tw/news/aspt/202607270138.aspx",
    "img": "cards/0727/C8.webp"
+  },
+  {
+   "id": "C7",
+   "batch": "0727",
+   "date": "2026-07-27",
+   "category": "運動",
+   "topic": "台灣少棒隊在世界少年軟式棒球錦標賽冠軍賽擊敗日本奪冠。",
+   "lines": [
+    "版本更新：",
+    "「台灣少棒」實裝冠軍副本",
+    "先過中國新加坡兩道小關卡",
+    "決賽日本BOSS掉落金盃"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202607270238.aspx",
+   "img": "cards/0727/C7.webp"
   },
   {
    "id": "C6",
@@ -380,6 +437,25 @@
    },
    "source": "https://www.cna.com.tw/news/aspt/202607260151.aspx",
    "img": "cards/0726/C7.webp"
+  },
+  {
+   "id": "C6",
+   "batch": "0726",
+   "date": "2026-07-26",
+   "category": "教育",
+   "topic": "馬來西亞137名學生獲赴台獎學金創新高，近7成為非華裔",
+   "lines": [
+    "版本更新：",
+    "「赴台獎學金」名額上修創高",
+    "多族群入學模組同步實裝完成",
+    "台馬交流掉落率再增益兩格"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202607260095.aspx",
+   "img": "cards/0726/C6.webp"
   },
   {
    "id": "C5",
