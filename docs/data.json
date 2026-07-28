@@ -1,6 +1,158 @@
 {
- "generated_at": 1785240399,
+ "generated_at": 1785243217,
  "cards": [
+  {
+   "id": "C9",
+   "batch": "0728",
+   "date": "2026-07-28",
+   "category": "文化",
+   "topic": "故宮北院龍藏經特展因七世福報說法吸引人潮，南院稱常設展能量也強。",
+   "lines": [
+    "版本更新：",
+    "「龍藏經」北院人潮同步上修",
+    "七世福報觸發排隊長龍副本",
+    "南院常設能量模組同步在線"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/acul/202607280272.aspx",
+   "img": "cards/0728/C9.webp"
+  },
+  {
+   "id": "C8",
+   "batch": "0728",
+   "date": "2026-07-28",
+   "category": "生活",
+   "topic": "麥味登8月聯名小熊維尼推餐點、盲盒與概念店，目標同店營收雙位數成長。",
+   "lines": [
+    "版本更新：",
+    "「麥味登」IP聯動正式實裝",
+    "盲盒掉落率開放預購新模組",
+    "同店營收增益目標上雙位數"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607280308.aspx",
+   "img": "cards/0728/C8.webp"
+  },
+  {
+   "id": "C7",
+   "batch": "0728",
+   "date": "2026-07-28",
+   "category": "民生",
+   "topic": "表燈電價底度費9月起調整，農業部啟動補貼估逾16萬農業用電戶受影響。",
+   "lines": [
+    "版本更新：",
+    "「表燈底費」9月版本上修",
+    "農業用電補貼模組同步實裝",
+    "低用電戶扣款減益暫時取消"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202607280313.aspx",
+   "img": "cards/0728/C7.webp"
+  },
+  {
+   "id": "C6",
+   "batch": "0728",
+   "date": "2026-07-28",
+   "category": "天氣",
+   "topic": "氣象署表示水氣逐漸減少，29日山區仍有局部大雨，颱風白海豚升為中颱。",
+   "lines": [
+    "版本更新：",
+    "「山區午後」雨量副本續開",
+    "水氣模組逐步進入冷卻階段",
+    "白海豚颱風數值同步上修中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202607280241.aspx",
+   "img": "cards/0728/C6.webp"
+  },
+  {
+   "id": "C5",
+   "batch": "0728",
+   "date": "2026-07-28",
+   "category": "防疫",
+   "topic": "8月10日起成人公費肺炎鏈球菌疫苗升級為20價或21價，接種1劑完成。",
+   "lines": [
+    "版本更新：",
+    "「肺鏈疫苗」一劑模組實裝",
+    "20價21價版本同步並行",
+    "長輩接種率目標上修至四成"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202607280279.aspx",
+   "img": "cards/0728/C5.webp"
+  },
+  {
+   "id": "C4",
+   "batch": "0728",
+   "date": "2026-07-28",
+   "category": "科技",
+   "topic": "岱宇跨足AI無人載具市場，在美成立子公司並盼年底前挹注營收。",
+   "lines": [
+    "版本更新：",
+    "「岱宇」無人載具美服開服",
+    "美國子公司量產模組實裝中",
+    "年底營收掉落率等待觸發中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607280314.aspx",
+   "img": "cards/0728/C4.webp"
+  },
+  {
+   "id": "C3",
+   "batch": "0728",
+   "date": "2026-07-28",
+   "category": "科技",
+   "topic": "數發部推出AI產業人才認定指引，建立共同能力標準串聯求職與培訓體系。",
+   "lines": [
+    "版本更新：",
+    "「AI人才」認定指引實裝",
+    "求職平台接入共同標準模組",
+    "白領職業風險係數同步上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607280288.aspx",
+   "img": "cards/0728/C3.webp"
+  },
+  {
+   "id": "C10",
+   "batch": "0728",
+   "date": "2026-07-28",
+   "category": "運動",
+   "topic": "中職二軍開始測試ABS電子好球帶，曾仁和成為自動好壞球挑戰第一人。",
+   "lines": [
+    "版本更新：",
+    "「電子好球帶」二軍測試開服",
+    "曲球判定正式進入挑戰模組",
+    "投打平衡數值等待重新校準"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202607280290.aspx",
+   "img": "cards/0728/C10.webp"
+  },
   {
    "id": "C9",
    "batch": "0727",
