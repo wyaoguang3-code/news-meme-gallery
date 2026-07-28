@@ -1,0 +1,7 @@
+name = "news-meme-gallery"
+pages_build_output_dir = "docs"
+compatibility_date = "2026-07-01"
+
+[[kv_namespaces]]
+binding = "VOTES"
+id = "PLACEHOLDER_KV_ID"

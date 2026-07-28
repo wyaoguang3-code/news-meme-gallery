@@ -98,8 +98,13 @@ def main():
         ok = optimize_image(r.get("card"), os.path.join(DOCS, rel))
         if not ok:
             continue
-        date = time.strftime("%Y-%m-%d", time.localtime(r.get("logged_at", 0))) \
-            if r.get("logged_at") else ""
+        # 日期以 batch（MMDD＝新聞日期）為準，回補舊日新聞才不會全掛在「今天」
+        date = ""
+        if r.get("logged_at"):
+            date = time.strftime("%Y-%m-%d", time.localtime(r["logged_at"]))
+        if len(batch) == 4 and batch.isdigit():
+            year = date[:4] if date else time.strftime("%Y")
+            date = "%s-%s-%s" % (year, batch[:2], batch[2:])
         out.append({
             "id": cid,
             "batch": batch,
