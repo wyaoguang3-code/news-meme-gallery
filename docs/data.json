@@ -1,5 +1,5 @@
 {
- "generated_at": 1785269910,
+ "generated_at": 1785270826,
  "cards": [
   {
    "id": "C9",
@@ -146,9 +146,9 @@
     "外資提款觸發熱錢冷卻模組",
     "收盤32.384守門副本"
    ],
-   "status": "rejected",
+   "status": "approved",
    "verdicts": {
-    "kas": "rejected（這是個測試用的負評 請不要參考）"
+    "kas": "approved"
    },
    "source": "https://www.cna.com.tw/news/afe/202607280254.aspx",
    "img": "cards/0728/C2.webp"
