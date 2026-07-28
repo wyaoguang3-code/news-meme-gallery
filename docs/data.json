@@ -1,5 +1,5 @@
 {
- "generated_at": 1785243366,
+ "generated_at": 1785269910,
  "cards": [
   {
    "id": "C9",
@@ -13,9 +13,9 @@
     "七世福報觸發排隊長龍副本",
     "南院常設能量模組同步在線"
    ],
-   "status": "pending",
+   "status": "approved",
    "verdicts": {
-    "kas": "pending"
+    "kas": "approved"
    },
    "source": "https://www.cna.com.tw/news/acul/202607280272.aspx",
    "img": "cards/0728/C9.webp"
@@ -146,9 +146,9 @@
     "外資提款觸發熱錢冷卻模組",
     "收盤32.384守門副本"
    ],
-   "status": "pending",
+   "status": "rejected",
    "verdicts": {
-    "kas": "pending"
+    "kas": "rejected（這是個測試用的負評 請不要參考）"
    },
    "source": "https://www.cna.com.tw/news/afe/202607280254.aspx",
    "img": "cards/0728/C2.webp"
