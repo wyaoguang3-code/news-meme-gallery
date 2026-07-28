@@ -1,6 +1,177 @@
 {
- "generated_at": 1785237662,
+ "generated_at": 1785240399,
  "cards": [
+  {
+   "id": "C9",
+   "batch": "0727",
+   "date": "2026-07-27",
+   "category": "地方",
+   "topic": "雲林電競派對開放報名，主賽事採英雄聯盟隨機單中大混戰。",
+   "lines": [
+    "版本更新：",
+    "「雲林電競」實裝派對副本",
+    "隨機單中大混戰模式開房中",
+    "玩家組隊報名冷卻即刻歸零"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aloc/202607270170.aspx",
+   "img": "cards/0727/C9.webp"
+  },
+  {
+   "id": "C8",
+   "batch": "0727",
+   "date": "2026-07-27",
+   "category": "運動",
+   "topic": "林俊易出席台北羽球公開賽記者會，笑稱第2種子前2輪籤運差。",
+   "lines": [
+    "版本更新：",
+    "「林俊易」套用二種子標籤",
+    "前兩輪籤表減益機率高觸發",
+    "地主男單雙保險模組已上線"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202607270138.aspx",
+   "img": "cards/0727/C8.webp"
+  },
+  {
+   "id": "C6",
+   "batch": "0727",
+   "date": "2026-07-27",
+   "category": "防疫",
+   "topic": "嘉義縣8月起在14鄉鎮衛生所開設肝膽腸胃科巡迴門診。",
+   "lines": [
+    "版本更新：",
+    "「嘉義肝炎」實裝巡迴門診",
+    "十四鄉鎮超音波模組全上線",
+    "追蹤冷卻改成衛生所自動觸發"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/postwrite/chi/440026",
+   "img": "cards/0727/C6.webp"
+  },
+  {
+   "id": "C5",
+   "batch": "0727",
+   "date": "2026-07-27",
+   "category": "科技",
+   "topic": "輝達等企業組成開放安全AI聯盟，因應AI代理失控網攻疑慮。",
+   "lines": [
+    "版本更新：",
+    "「輝達聯盟」實裝安全模組",
+    "AI代理失控機率已被標記",
+    "網攻副本冷卻交給新工具箱"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ait/202607270289.aspx",
+   "img": "cards/0727/C5.webp"
+  },
+  {
+   "id": "C4",
+   "batch": "0727",
+   "date": "2026-07-27",
+   "category": "天氣",
+   "topic": "南方雲系北移與午後對流旺盛，氣象署對13縣市發布大雨特報。",
+   "lines": [
+    "版本更新：",
+    "「午後對流」實裝大雨場域",
+    "十三縣市同時觸發強降雨模組",
+    "雷擊陣風溪水數值暫時上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202607270091.aspx",
+   "img": "cards/0727/C4.webp"
+  },
+  {
+   "id": "C3",
+   "batch": "0727",
+   "date": "2026-07-27",
+   "category": "生活",
+   "topic": "台灣虎航因應2028年第三代機隊與航網布局，下半年招募30名客艙組員。",
+   "lines": [
+    "版本更新：",
+    "「台灣虎航」套用新機隊模組",
+    "客艙組員三十名掉落率上修",
+    "桃園高雄基地分派機率啟動"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202607270080.aspx",
+   "img": "cards/0727/C3.webp"
+  },
+  {
+   "id": "C2",
+   "batch": "0727",
+   "date": "2026-07-27",
+   "category": "財經",
+   "topic": "日本台灣形象展3天吸引2.2萬人次，並促成1.56億美元商機。",
+   "lines": [
+    "版本更新：",
+    "「形象展」實裝台日商機副本",
+    "商機一點五六億美元掉落率",
+    "AI綠能智慧場域同步上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607270223.aspx",
+   "img": "cards/0727/C2.webp"
+  },
+  {
+   "id": "C10",
+   "batch": "0727",
+   "date": "2026-07-27",
+   "category": "文化",
+   "topic": "兩廳院秋天藝術節公布7國8檔30場作品，主題聚焦理解彼此。",
+   "lines": [
+    "版本更新：",
+    "「秋天藝術節」實裝七國副本",
+    "八檔作品三十場內容掉落率",
+    "理解彼此數值於劇場場域上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/acul/202607270126.aspx",
+   "img": "cards/0727/C10.webp"
+  },
+  {
+   "id": "C1",
+   "batch": "0727",
+   "date": "2026-07-27",
+   "category": "財經",
+   "topic": "國發會公布6月景氣燈號因AI出口與投資帶動連7紅，創史上第二長。",
+   "lines": [
+    "版本更新：",
+    "「景氣燈號」套用紅燈模組",
+    "AI出口投資增益連七月觸發",
+    "高基期BOSS冷卻待觀測"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607270247.aspx",
+   "img": "cards/0727/C1.webp"
+  },
   {
    "id": "C9",
    "batch": "0726",
