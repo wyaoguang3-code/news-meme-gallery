@@ -1,6 +1,177 @@
 {
- "generated_at": 1785233975,
+ "generated_at": 1785237662,
  "cards": [
+  {
+   "id": "C9",
+   "batch": "0726",
+   "date": "2026-07-26",
+   "category": "運動",
+   "topic": "李灝宇敲本季第6轟並連10場安打，包辦老虎全場2分打點",
+   "lines": [
+    "版本更新：",
+    "「李灝宇」火力模組連發兩段",
+    "第六支轟增益包辦全隊輸出",
+    "十場安打冷卻仍未歸零狀態"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202607260008.aspx",
+   "img": "cards/0726/C9.webp"
+  },
+  {
+   "id": "C8",
+   "batch": "0726",
+   "date": "2026-07-26",
+   "category": "運動",
+   "topic": "楊昆弼在射擊世界盃男子不定向飛靶資格賽前3輪滿靶75分暫居第1",
+   "lines": [
+    "版本更新：",
+    "「楊昆弼」滿靶模組啟動成功",
+    "七十五分數值直接封頂上限",
+    "資格賽掉落率暫居首位面板"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202607260192.aspx",
+   "img": "cards/0726/C8.webp"
+  },
+  {
+   "id": "C7",
+   "batch": "0726",
+   "date": "2026-07-26",
+   "category": "運動",
+   "topic": "周天成中國羽球公開賽擊敗波波夫，奪生涯第2座超級1000冠軍",
+   "lines": [
+    "版本更新：",
+    "「周天成」套用逆風模組再開",
+    "千分BOSS血量下修兩格",
+    "六年冷卻重置冠軍掉落入庫"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202607260151.aspx",
+   "img": "cards/0726/C7.webp"
+  },
+  {
+   "id": "C5",
+   "batch": "0726",
+   "date": "2026-07-26",
+   "category": "文化",
+   "topic": "台中玩劇場生活節登場，中山堂化身藝饗遊樂園並開放實境解謎",
+   "lines": [
+    "版本更新：",
+    "「中山堂」開放劇場全域副本",
+    "馬戲市集模組同場實裝連動",
+    "解謎場域增益親子探索路線"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aloc/202607260021.aspx",
+   "img": "cards/0726/C5.webp"
+  },
+  {
+   "id": "C4",
+   "batch": "0726",
+   "date": "2026-07-26",
+   "category": "生活",
+   "topic": "白沙屯拱天宮完成香客碳排放計算，成全台第一座碳註銷廟宇",
+   "lines": [
+    "版本更新：",
+    "「拱天宮」實裝碳權認證模組",
+    "香客排放數值逐筆結算入帳",
+    "低碳旅程副本掉落率上修完成"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202607260023.aspx",
+   "img": "cards/0726/C4.webp"
+  },
+  {
+   "id": "C3",
+   "batch": "0726",
+   "date": "2026-07-26",
+   "category": "民生",
+   "topic": "桃園老屋逾42萬戶，修繕補助諮詢突破2500人",
+   "lines": [
+    "版本更新：",
+    "「桃園老屋」耐久模組上修",
+    "補助諮詢觸發兩千五百案件",
+    "修繕副本開放裂縫回補路線"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aloc/202607260065.aspx",
+   "img": "cards/0726/C3.webp"
+  },
+  {
+   "id": "C2",
+   "batch": "0726",
+   "date": "2026-07-26",
+   "category": "天氣",
+   "topic": "新北雙溪晚間發生規模5.6地震，雙北等地最大震度3級且國家警報響起",
+   "lines": [
+    "版本更新：",
+    "「雙溪震央」實裝震度模組",
+    "國家警報觸發全區紅點彈窗",
+    "北部場域搖晃數值上修三級"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202607260171.aspx",
+   "img": "cards/0726/C2.webp"
+  },
+  {
+   "id": "C10",
+   "batch": "0726",
+   "date": "2026-07-26",
+   "category": "國際",
+   "topic": "颱風紅霞凌晨登陸廣東，成2026年以來登陸中國最強颱",
+   "lines": [
+    "版本更新：",
+    "「紅霞」登陸模組啟動廣東",
+    "十四級風場數值上修至滿格",
+    "高鐵機場副本暫停掉落通關"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/acn/202607260017.aspx",
+   "img": "cards/0726/C10.webp"
+  },
+  {
+   "id": "C1",
+   "batch": "0726",
+   "date": "2026-07-26",
+   "category": "財經",
+   "topic": "大立光、台塑化、華邦電等除息後漲逾60%，神速填息股股息價差兩頭賺",
+   "lines": [
+    "版本更新：",
+    "「填息股」套用衝刺模組連發",
+    "股息價差增益雙欄實裝滿格",
+    "除息冷卻下修成兩日速通副本"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://money.udn.com/money/story/5607/9651110",
+   "img": "cards/0726/C1.webp"
+  },
   {
    "id": "C6",
    "batch": "0718",
