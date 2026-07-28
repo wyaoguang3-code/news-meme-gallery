@@ -10,4 +10,10 @@ if git diff --cached --quiet; then
 fi
 git commit -q -m "gallery: update $(date +%Y-%m-%d\ %H:%M)"
 git push -q origin main
-echo "gallery: pushed"
+echo "gallery: pushed (GitHub Pages)"
+# 同步部署到 Cloudflare Pages（會員投票版）；失敗不擋 GH 流程
+if [ -x /opt/homebrew/bin/wrangler ]; then
+  /opt/homebrew/bin/wrangler pages deploy --commit-dirty=true >/dev/null 2>&1 \
+    && echo "gallery: deployed (Cloudflare Pages)" \
+    || echo "gallery: CF Pages deploy failed（站仍為前一版）"
+fi
