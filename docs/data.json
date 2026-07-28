@@ -1,0 +1,124 @@
+{
+ "generated_at": 1785233072,
+ "cards": [
+  {
+   "id": "C6",
+   "batch": "0718",
+   "date": "2026-07-18",
+   "category": "生活",
+   "topic": "台北國際夏季旅展7/17-20世貿一館",
+   "lines": [
+    "版本更新：",
+    "臺北國際夏季旅展正式開幕",
+    "請民眾把握機會前往參觀選購",
+    "注意展期只到7月20日別錯過"
+   ],
+   "status": "rejected",
+   "verdicts": {
+    "kas": "rejected（語氣太正經，不能用）"
+   },
+   "source": "",
+   "img": "cards/0718/C6.webp"
+  },
+  {
+   "id": "C5",
+   "batch": "0718",
+   "date": "2026-07-18",
+   "category": "生活",
+   "topic": "亞洲50最佳酒吧51-100名,台灣5家入榜",
+   "lines": [
+    "版本更新：",
+    "台灣五間酒吧解鎖亞洲百大",
+    "台南、高雄各奪一席上榜",
+    "台北三家同步擠進排行榜"
+   ],
+   "status": "approved",
+   "verdicts": {
+    "kas": "approved",
+    "keny": "pending"
+   },
+   "source": "",
+   "img": "cards/0718/C5.webp"
+  },
+  {
+   "id": "C4",
+   "batch": "0718",
+   "date": "2026-07-18",
+   "category": "運動",
+   "topic": "中職明星賽7/18起台北大巨蛋開打",
+   "lines": [
+    "版本更新：",
+    "「中職明星賽」限定副本開啟",
+    "活動場域移至台北大巨蛋",
+    "連續兩日限時開放挑戰"
+   ],
+   "status": "approved",
+   "verdicts": {
+    "kas": "approved",
+    "keny": "pending"
+   },
+   "source": "",
+   "img": "cards/0718/C4.webp"
+  },
+  {
+   "id": "C3",
+   "batch": "0718",
+   "date": "2026-07-18",
+   "category": "民生",
+   "topic": "振興金5000元補領7/17截止,未領視同放棄",
+   "lines": [
+    "版本更新：",
+    "「振興金」限時領取活動今日關閉",
+    "未領取者獎勵視同自動放棄",
+    "多縣市加碼3000至1萬元"
+   ],
+   "status": "approved",
+   "verdicts": {
+    "kas": "approved",
+    "keny": "pending"
+   },
+   "source": "https://www.storm.mg/lifestyle/11149639",
+   "img": "cards/0718/C3.webp"
+  },
+  {
+   "id": "C2",
+   "batch": "0718",
+   "date": "2026-07-18",
+   "category": "防疫",
+   "topic": "金門海漂豬屍驗出非洲豬瘟,豬肉暫停輸台",
+   "lines": [
+    "版本更新：",
+    "「非洲豬瘟」入侵金門場域",
+    "海漂豬屍檢出陽性已確認",
+    "金門豬肉輸台通道暫時封鎖"
+   ],
+   "status": "approved",
+   "verdicts": {
+    "kas": "approved",
+    "keny": "pending"
+   },
+   "source": "https://lifestyle.hawo.tw/v/detail/custom-digest-2026-07-17",
+   "img": "cards/0718/C2.webp"
+  },
+  {
+   "id": "C1",
+   "batch": "0718",
+   "date": "2026-07-18",
+   "category": "財經",
+   "topic": "台積電法說後台股崩跌2953點",
+   "lines": [
+    "版本更新：",
+    "台積電法說觸發全場減益事件",
+    "台股單日血量蒸發2953點",
+    "毛利率數值預期遭大幅下修"
+   ],
+   "status": "approved",
+   "verdicts": {
+    "kas": "approved",
+    "keny": "pending"
+   },
+   "source": "https://www.youtube.com/watch?v=igcu8H_Emfo",
+   "img": "cards/0718/C1.webp"
+  }
+ ]
+}

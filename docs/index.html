@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>版本更新 · 每日新聞梗圖庫</title>
+<style>
+  :root {
+    --bg: #f6f7f8; --card: #ffffff; --text: #1c1e21; --muted: #65676b;
+    --chip: #e4e6e9; --chip-on: #1c1e21; --chip-on-text: #ffffff;
+    --ok: #2e9e5b; --no: #d64545; --pending: #b58a2c; --shadow: rgba(0,0,0,.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121417; --card: #1d2024; --text: #e8eaed; --muted: #9aa0a6;
+      --chip: #2a2e33; --chip-on: #e8eaed; --chip-on-text: #121417;
+      --shadow: rgba(0,0,0,.4);
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text);
+         font-family: "PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif; }
+  header { position: sticky; top: 0; z-index: 10; background: var(--bg);
+           padding: 14px 18px 10px; border-bottom: 1px solid var(--chip); }
+  h1 { font-size: 19px; margin-bottom: 10px; }
+  h1 small { color: var(--muted); font-weight: 400; font-size: 12px; margin-left: 8px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 6px; }
+  .chips span.label { color: var(--muted); font-size: 12px; align-self: center; margin-right: 2px; }
+  .chip { border: 0; cursor: pointer; background: var(--chip); color: var(--text);
+          border-radius: 999px; padding: 5px 12px; font-size: 13px; }
+  .chip.on { background: var(--chip-on); color: var(--chip-on-text); }
+  main { padding: 16px; }
+  .wall { column-width: 250px; column-gap: 14px; max-width: 1400px; margin: 0 auto; }
+  .pin { break-inside: avoid; margin: 0 0 14px; background: var(--card);
+         border-radius: 14px; overflow: hidden; box-shadow: 0 1px 4px var(--shadow);
+         cursor: zoom-in; transition: transform .12s ease; }
+  .pin:hover { transform: translateY(-2px); }
+  .pin img { width: 100%; display: block; }
+  .meta { padding: 9px 11px 11px; }
+  .meta .topic { font-size: 13px; line-height: 1.45; }
+  .meta .sub { display: flex; gap: 6px; align-items: center; margin-top: 7px;
+               font-size: 11px; color: var(--muted); flex-wrap: wrap; }
+  .badge { border-radius: 6px; padding: 1px 7px; font-size: 11px; color: #fff; }
+  .badge.approved { background: var(--ok); }
+  .badge.rejected { background: var(--no); }
+  .badge.pending  { background: var(--pending); }
+  .cat { background: var(--chip); border-radius: 6px; padding: 1px 7px; }
+  .empty { color: var(--muted); text-align: center; padding: 60px 0; }
+  /* lightbox */
+  #box { position: fixed; inset: 0; background: rgba(0,0,0,.72); display: none;
+         z-index: 50; align-items: center; justify-content: center; padding: 24px; }
+  #box.show { display: flex; }
+  #box .panel { background: var(--card); border-radius: 16px; max-width: 900px;
+                width: 100%; max-height: 92vh; overflow: auto;
+                display: grid; grid-template-columns: minmax(0,1.1fr) minmax(240px,.9fr); }
+  #box img { width: 100%; display: block; }
+  #box .info { padding: 18px; }
+  #box .info h2 { font-size: 16px; line-height: 1.5; margin-bottom: 10px; }
+  #box .info pre { font: 14px/1.8 inherit; white-space: pre-wrap; background: var(--chip);
+                   border-radius: 10px; padding: 10px 12px; margin: 10px 0; }
+  #box .info .row { font-size: 12px; color: var(--muted); margin-top: 6px; }
+  #box .info a { color: inherit; }
+  @media (max-width: 640px) { #box .panel { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>版本更新 · 每日新聞梗圖庫<small id="stamp"></small></h1>
+  <div class="chips" id="dates"><span class="label">日期</span></div>
+  <div class="chips" id="cats"><span class="label">分類</span></div>
+  <div class="chips" id="stats"><span class="label">狀態</span></div>
+</header>
+<main><div class="wall" id="wall"></div><div class="empty" id="empty" hidden>沒有符合條件的卡片</div></main>
+
+<div id="box"><div class="panel" id="panel"></div></div>
+
+<script>
+var DATA = [], F = { date: "全部", cat: "全部", stat: "全部" };
+var STAT_LABEL = { approved: "已核准", rejected: "已退件", pending: "待審核" };
+
+function chips(elId, values, key) {
+  var el = document.getElementById(elId);
+  values.forEach(function (v) {
+    var b = document.createElement("button");
+    b.className = "chip" + (F[key] === v ? " on" : "");
+    b.textContent = v;
+    b.onclick = function () {
+      F[key] = v;
+      el.querySelectorAll(".chip").forEach(function (c) { c.classList.remove("on"); });
+      b.classList.add("on");
+      render();
+    };
+    el.appendChild(b);
+  });
+}
+
+function render() {
+  var wall = document.getElementById("wall");
+  wall.innerHTML = "";
+  var shown = 0;
+  DATA.forEach(function (c) {
+    if (F.date !== "全部" && c.date !== F.date) return;
+    if (F.cat !== "全部" && c.category !== F.cat) return;
+    if (F.stat !== "全部" && STAT_LABEL[c.status] !== F.stat) return;
+    shown++;
+    var d = document.createElement("div");
+    d.className = "pin";
+    d.innerHTML =
+      '<img loading="lazy" src="' + c.img + '" alt="">' +
+      '<div class="meta"><div class="topic">' + c.topic + "</div>" +
+      '<div class="sub"><span class="badge ' + c.status + '">' + STAT_LABEL[c.status] + "</span>" +
+      '<span class="cat">' + c.category + "</span><span>" + c.date + "</span></div></div>";
+    d.onclick = function () { open(c); };
+    wall.appendChild(d);
+  });
+  document.getElementById("empty").hidden = shown > 0;
+}
+
+function open(c) {
+  var v = Object.keys(c.verdicts || {}).map(function (k) {
+    return k + "：" + c.verdicts[k];
+  }).join("　");
+  document.getElementById("panel").innerHTML =
+    '<img src="' + c.img + '"><div class="info">' +
+    "<h2>" + c.topic + "</h2>" +
+    "<pre>" + (c.lines || []).join("\n") + "</pre>" +
+    '<div class="row">' + c.category + " · " + c.date + " · " + c.id + "</div>" +
+    (v ? '<div class="row">評審：' + v + "</div>" : "") +
+    (c.source ? '<div class="row"><a href="' + c.source + '" target="_blank" rel="noopener">新聞來源 ↗</a></div>' : "") +
+    "</div>";
+  document.getElementById("box").classList.add("show");
+}
+document.getElementById("box").onclick = function (e) {
+  if (e.target.id === "box") this.classList.remove("show");
+};
+addEventListener("keydown", function (e) {
+  if (e.key === "Escape") document.getElementById("box").classList.remove("show");
+});
+
+fetch("data.json").then(function (r) { return r.json(); }).then(function (j) {
+  DATA = j.cards || [];
+  var dates = ["全部"], cats = ["全部"], stats = ["全部"];
+  DATA.forEach(function (c) {
+    if (dates.indexOf(c.date) < 0) dates.push(c.date);
+    if (cats.indexOf(c.category) < 0) cats.push(c.category);
+    var s = STAT_LABEL[c.status];
+    if (stats.indexOf(s) < 0) stats.push(s);
+  });
+  chips("dates", dates, "date");
+  chips("cats", cats, "cat");
+  chips("stats", stats, "stat");
+  document.getElementById("stamp").textContent =
+    "更新：" + new Date(j.generated_at * 1000).toLocaleString("zh-TW");
+  render();
+});
+</script>
+</body>
+</html>
