@@ -1,6 +1,139 @@
 {
- "generated_at": 1785270826,
+ "generated_at": 1785682732,
  "cards": [
+  {
+   "id": "C1",
+   "batch": "0802",
+   "date": "2026-08-02",
+   "category": "財經",
+   "topic": "金融三業上半年獲利逾新台幣9042億元，全年有望挑戰歷史新高。",
+   "lines": [
+    "版本更新：",
+    "「金融三業」獲利模組上修",
+    "上半年數值突破九千億關卡",
+    "全年獲利BOSS再觸發中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608020177.aspx",
+   "img": "cards/0802/C1.webp"
+  },
+  {
+   "id": "C6",
+   "batch": "0729",
+   "date": "2026-07-29",
+   "category": "民生",
+   "topic": "青安3.0問答集出爐，婚育宅貸後離婚將停止超過1000萬元額度的利息補貼。",
+   "lines": [
+    "版本更新：",
+    "「青安三點零」問答包實裝",
+    "婚育額度增益正式開放登錄",
+    "關係消滅補貼模組同步下修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607280327.aspx",
+   "img": "cards/0729/C6.webp"
+  },
+  {
+   "id": "C5",
+   "batch": "0729",
+   "date": "2026-07-29",
+   "category": "財經",
+   "topic": "金管會表示四貸同堂多重借款客戶比例僅低個位數，整體授信風險可控。",
+   "lines": [
+    "版本更新：",
+    "「四貸同堂」BOSS刷新",
+    "多重借款機率維持低個位數",
+    "授信風險模組暫不觸發暴走"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607280333.aspx",
+   "img": "cards/0729/C5.webp"
+  },
+  {
+   "id": "C4",
+   "batch": "0729",
+   "date": "2026-07-29",
+   "category": "民生",
+   "topic": "台北承德士商路口7月29日啟用新路型，機車道增為4車道並延長汽車綠燈。",
+   "lines": [
+    "版本更新：",
+    "「承德士商」場域重新配置",
+    "機車車道數值由二上修至四",
+    "汽車綠燈冷卻延長三成以上"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aloc/202607280315.aspx",
+   "img": "cards/0729/C4.webp"
+  },
+  {
+   "id": "C3",
+   "batch": "0729",
+   "date": "2026-07-29",
+   "category": "科技",
+   "topic": "上銀義大利子公司遭駭客網路攻擊，初估對營運無重大影響。",
+   "lines": [
+    "版本更新：",
+    "「上銀義廠」觸發駭客副本",
+    "資安防禦通報模組即時實裝",
+    "營運減益數值尚未正式觸發"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607280342.aspx",
+   "img": "cards/0729/C3.webp"
+  },
+  {
+   "id": "C2",
+   "batch": "0729",
+   "date": "2026-07-29",
+   "category": "科技",
+   "topic": "旺宏估eMMC漲價動能延續到第4季，並追加158億元擴產。",
+   "lines": [
+    "版本更新：",
+    "「旺宏eMMC」價格上修",
+    "漲價動能延至第四季副本開啟",
+    "一五八億擴產冷卻正式解除"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607280286.aspx",
+   "img": "cards/0729/C2.webp"
+  },
+  {
+   "id": "C1",
+   "batch": "0729",
+   "date": "2026-07-29",
+   "category": "財經",
+   "topic": "壽險業外幣保單前5月新契約保費2334億，創4年新高。",
+   "lines": [
+    "版本更新：",
+    "「外幣保單」掉落率大幅上修",
+    "前五月保費數值二三三四億",
+    "四年新高收益模組正式實裝"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607280351.aspx",
+   "img": "cards/0729/C1.webp"
+  },
   {
    "id": "C9",
    "batch": "0728",
