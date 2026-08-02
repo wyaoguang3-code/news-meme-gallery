@@ -22,7 +22,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 DOCS = os.path.join(HERE, "docs")
 CARDS_DIR = os.path.join(DOCS, "cards")
 OWNER = "kas"          # 誰的判定決定「能不能發」
-WEB_WIDTH = 720
+WEB_WIDTH = 1080   # IG 發文標準寬；圖庫+IG poster 共用同一份輸出
 WEBP_QUALITY = 82
 
 
