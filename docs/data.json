@@ -1,5 +1,5 @@
 {
- "generated_at": 1785693527,
+ "generated_at": 1785695654,
  "cards": [
   {
    "id": "C9",
@@ -190,6 +190,196 @@
    },
    "source": "https://www.cna.com.tw/news/afe/202608020177.aspx",
    "img": "cards/0802/C1.webp"
+  },
+  {
+   "id": "C9",
+   "batch": "0801",
+   "date": "2026-08-01",
+   "category": "天氣",
+   "topic": "歐洲熱浪乾旱使多瑙河水位創新低，匈牙利核電廠恐面臨全停。",
+   "lines": [
+    "版本更新：",
+    "「多瑙河」水位數值下修新低",
+    "熱浪乾旱觸發冷卻危機副本",
+    "核電場域首次全停機制待命"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/video/news/4355685",
+   "img": "cards/0801/C9.webp"
+  },
+  {
+   "id": "C8",
+   "batch": "0801",
+   "date": "2026-08-01",
+   "category": "科技",
+   "topic": "Google地球AI影像生成功能因假影像疑慮緊急下架。",
+   "lines": [
+    "版本更新：",
+    "「谷歌地球」生成模組關閉",
+    "假影像掉落率暫時下修封存",
+    "地標副本觸發浮水印冷卻機制"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ait/202608010069.aspx",
+   "img": "cards/0801/C8.webp"
+  },
+  {
+   "id": "C7",
+   "batch": "0801",
+   "date": "2026-08-01",
+   "category": "文化",
+   "topic": "台灣文學創作獎225件投稿選出9名首獎，劇本類首獎從缺。",
+   "lines": [
+    "版本更新：",
+    "「劇本首獎」本季掉落率歸零",
+    "二二五件投稿副本開放競技",
+    "九名得主模組正常實裝上線"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/acul/202608010135.aspx",
+   "img": "cards/0801/C7.webp"
+  },
+  {
+   "id": "C6",
+   "batch": "0801",
+   "date": "2026-08-01",
+   "category": "運動",
+   "topic": "林安可日職西武7局敲追平二壘打，賽後登上英雄訪問。",
+   "lines": [
+    "版本更新：",
+    "「林安可」七局長打觸發增益",
+    "追平分模組於西武主場上線",
+    "英雄訪問掉出台灣應援加成"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202608010193.aspx",
+   "img": "cards/0801/C6.webp"
+  },
+  {
+   "id": "C5",
+   "batch": "0801",
+   "date": "2026-08-01",
+   "category": "運動",
+   "topic": "Red Bull Gym Clash決賽8隊交鋒，冠軍將代表台灣赴埃及總決賽。",
+   "lines": [
+    "版本更新：",
+    "「健身房隊」埃及副本解鎖",
+    "八隊決賽場域正面交鋒實裝",
+    "力量耐力技巧三段冷卻任務"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202608010109.aspx",
+   "img": "cards/0801/C5.webp"
+  },
+  {
+   "id": "C4",
+   "batch": "0801",
+   "date": "2026-08-01",
+   "category": "生活",
+   "topic": "永康街山海豆花進軍韓國，首爾快閃半月業績近新台幣250萬元。",
+   "lines": [
+    "版本更新：",
+    "「芒果豆花」韓國場域增益",
+    "甜度數值改採三匙模組判定",
+    "快閃營收半月近二五零萬台幣"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608010017.aspx",
+   "img": "cards/0801/C4.webp"
+  },
+  {
+   "id": "C3",
+   "batch": "0801",
+   "date": "2026-08-01",
+   "category": "民生",
+   "topic": "8月新制上路，勞退、新青安3.0、學貸與台鐵優惠同步調整。",
+   "lines": [
+    "版本更新：",
+    "「八月新制」民生模組實裝",
+    "勞退青安數值同步改版上線",
+    "台鐵優惠觸發週末場域副本"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.mirrordaily.news/story/76817",
+   "img": "cards/0801/C3.webp"
+  },
+  {
+   "id": "C2",
+   "batch": "0801",
+   "date": "2026-08-01",
+   "category": "科技",
+   "topic": "食品所研發AI茶香氣輪廓建模，把茶葉老師傅經驗轉成模型。",
+   "lines": [
+    "版本更新：",
+    "「老師傅」香氣模組實裝完畢",
+    "手搖飲數值全改由AI判定",
+    "茶香副本開放產線驗證階段"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608010060.aspx",
+   "img": "cards/0801/C2.webp"
+  },
+  {
+   "id": "C10",
+   "batch": "0801",
+   "date": "2026-08-01",
+   "category": "地方",
+   "topic": "台中賽車籃球文藝嘉年華展出近200輛車，吸引逾5000人入場。",
+   "lines": [
+    "版本更新：",
+    "「台中嘉年華」車庫模組實裝",
+    "超跑籃球混合副本開放場域",
+    "五千玩家觸發公益掉落任務"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aloc/202608010181.aspx",
+   "img": "cards/0801/C10.webp"
+  },
+  {
+   "id": "C1",
+   "batch": "0801",
+   "date": "2026-08-01",
+   "category": "財經",
+   "topic": "AI需求強、消費電子冷，半導體第3季景氣呈現不同調。",
+   "lines": [
+    "版本更新：",
+    "「AI晶片」第3季掉落率上修",
+    "「消費電子」需求全面下修",
+    "成本模組觸發漲價冷卻機制"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608010039.aspx",
+   "img": "cards/0801/C1.webp"
   },
   {
    "id": "C4",
