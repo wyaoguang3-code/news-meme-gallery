@@ -1,6 +1,177 @@
 {
- "generated_at": 1785682732,
+ "generated_at": 1785684480,
  "cards": [
+  {
+   "id": "C9",
+   "batch": "0802",
+   "date": "2026-08-02",
+   "category": "娛樂",
+   "topic": "TPE48舉辦8週年演唱會，完整編制合體並公開新歌。",
+   "lines": [
+    "版本更新：",
+    "「TPE48」八週年副本開場",
+    "完整編制合體模組正式實裝",
+    "新歌掉落率同步上修觸發中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/amov/202608020187.aspx",
+   "img": "cards/0802/C9.webp"
+  },
+  {
+   "id": "C8",
+   "batch": "0802",
+   "date": "2026-08-02",
+   "category": "防疫",
+   "topic": "高雄新增2例境外移入登革熱，未配合提供旅遊史被裁罰1萬元。",
+   "lines": [
+    "版本更新：",
+    "「旅遊史」填報模組下修中",
+    "境外登革熱副本新增二例觸發",
+    "裁罰一萬數值模組正式實裝"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608020183.aspx",
+   "img": "cards/0802/C8.webp"
+  },
+  {
+   "id": "C7",
+   "batch": "0802",
+   "date": "2026-08-02",
+   "category": "生活",
+   "topic": "菲律賓比例模型大賽閉幕，台灣團隊在逾800件作品中奪3金2銀7銅。",
+   "lines": [
+    "版本更新：",
+    "「台灣模型隊」獎牌掉落上修",
+    "三金二銀七銅獎勵正式實裝",
+    "國際模型副本通關率大上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608020157.aspx",
+   "img": "cards/0802/C7.webp"
+  },
+  {
+   "id": "C6",
+   "batch": "0802",
+   "date": "2026-08-02",
+   "category": "運動",
+   "topic": "心元盃匹克球公開賽移師台大體育館，吸引超過500名選手參賽。",
+   "lines": [
+    "版本更新：",
+    "「匹克球」台大副本開場中",
+    "五百多名選手參戰模組實裝",
+    "總獎金十萬增益同步開放中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202608020163.aspx",
+   "img": "cards/0802/C6.webp"
+  },
+  {
+   "id": "C5",
+   "batch": "0802",
+   "date": "2026-08-02",
+   "category": "國際",
+   "topic": "星宇開航台北布拉格，10月起台捷直飛航班將達天天有班機。",
+   "lines": [
+    "版本更新：",
+    "「台捷直飛」班表模組上修",
+    "十月起每日航班正式實裝中",
+    "旅遊商務雙場域掉落率增益"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608020104.aspx",
+   "img": "cards/0802/C5.webp"
+  },
+  {
+   "id": "C4",
+   "batch": "0802",
+   "date": "2026-08-02",
+   "category": "天氣",
+   "topic": "颱風白海豚逼近琉球，8日起台灣受外圍環流影響北部山區防豪雨。",
+   "lines": [
+    "版本更新：",
+    "「白海豚」路徑模組分歧中",
+    "北部山區豪雨副本機率上修",
+    "外圍環流八日後正式觸發中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608020154.aspx",
+   "img": "cards/0802/C4.webp"
+  },
+  {
+   "id": "C3",
+   "batch": "0802",
+   "date": "2026-08-02",
+   "category": "民生",
+   "topic": "台塑石化宣布8月3日起汽柴油批售價格不調整。",
+   "lines": [
+    "版本更新：",
+    "「汽柴油」價格冷卻模組延長",
+    "三日凌晨數值維持原版狀態",
+    "零售掉落率交由各站自行判定"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608020151.aspx",
+   "img": "cards/0802/C3.webp"
+  },
+  {
+   "id": "C2",
+   "batch": "0802",
+   "date": "2026-08-02",
+   "category": "財經",
+   "topic": "台股上週急跌急彈，三天重挫逾3700點後單日大漲3186.45點。",
+   "lines": [
+    "版本更新：",
+    "「台股」震盪副本本週實裝",
+    "三日減益後單日大增益觸發",
+    "夜盤冷卻模組再度千點下修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608020084.aspx",
+   "img": "cards/0802/C2.webp"
+  },
+  {
+   "id": "C10",
+   "batch": "0802",
+   "date": "2026-08-02",
+   "category": "科技",
+   "topic": "台電雄積三、四線路竣工，楠梓園區供電能力提升至逾1000MW。",
+   "lines": [
+    "版本更新：",
+    "「楠梓園區」供電模組上修",
+    "雄積三四線提前完工實裝中",
+    "逾千兆瓦供電場域穩定增益"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608020028.aspx",
+   "img": "cards/0802/C10.webp"
+  },
   {
    "id": "C1",
    "batch": "0802",
