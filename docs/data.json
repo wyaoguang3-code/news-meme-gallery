@@ -1,5 +1,5 @@
 {
- "generated_at": 1785689564,
+ "generated_at": 1785692045,
  "cards": [
   {
    "id": "C9",
@@ -190,6 +190,196 @@
    },
    "source": "https://www.cna.com.tw/news/afe/202608020177.aspx",
    "img": "cards/0802/C1.webp"
+  },
+  {
+   "id": "C9",
+   "batch": "0730",
+   "date": "2026-07-30",
+   "category": "地方",
+   "topic": "捷運三鶯線8月1日起延長試營運至晚間10時，免費搭到8月底。",
+   "lines": [
+    "版本更新：",
+    "「三鶯線」夜間場域延長開放",
+    "試營運冷卻時間延至十點整",
+    "免費搭乘掉落率暫時滿格中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aloc/202607300233.aspx",
+   "img": "cards/0730/C9.webp"
+  },
+  {
+   "id": "C8",
+   "batch": "0730",
+   "date": "2026-07-30",
+   "category": "財經",
+   "topic": "王品集團夏慕尼加速展店，目標明年底達21店。",
+   "lines": [
+    "版本更新：",
+    "「夏慕尼」展店模組正式實裝",
+    "牛排副本數量年底再上修中",
+    "鐵板香氣場域範圍增益套用"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607300159.aspx",
+   "img": "cards/0730/C8.webp"
+  },
+  {
+   "id": "C7",
+   "batch": "0730",
+   "date": "2026-07-30",
+   "category": "運動",
+   "topic": "T3X台灣3x3籃球聯賽成立，多支職籃球隊共襄盛舉。",
+   "lines": [
+    "版本更新：",
+    "「T3X」街球副本正式開服",
+    "職籃隊伍賽局模組批次加入",
+    "半場BOSS節奏持續上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202607300197.aspx",
+   "img": "cards/0730/C7.webp"
+  },
+  {
+   "id": "C6",
+   "batch": "0730",
+   "date": "2026-07-30",
+   "category": "生活",
+   "topic": "林保署表示8月1日起國家森林遊樂區可用全支付購票。",
+   "lines": [
+    "版本更新：",
+    "「森林」全支付購票模組實裝",
+    "售票口現金依賴減益套用中",
+    "山林副本付款掉落率上修中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202607300163.aspx",
+   "img": "cards/0730/C6.webp"
+  },
+  {
+   "id": "C5",
+   "batch": "0730",
+   "date": "2026-07-30",
+   "category": "文化",
+   "topic": "故宮南院小編「幹嘛」爆紅，館方稱研究人員學有專精。",
+   "lines": [
+    "版本更新：",
+    "「幹嘛」回覆迷因模組實裝",
+    "故宮南院場域聲量大幅增益",
+    "研究員回覆冷卻數值被歸零"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/acul/202607300158.aspx",
+   "img": "cards/0730/C5.webp"
+  },
+  {
+   "id": "C4",
+   "batch": "0730",
+   "date": "2026-07-30",
+   "category": "生活",
+   "topic": "桃機科技執法8月上路，車停逾3分鐘最高罰1200元。",
+   "lines": [
+    "版本更新：",
+    "「桃機」停車計時模組實裝",
+    "三分鐘後罰鍰事件自動觸發",
+    "臨停冷卻時間上限大幅下修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202607300074.aspx",
+   "img": "cards/0730/C4.webp"
+  },
+  {
+   "id": "C3",
+   "batch": "0730",
+   "date": "2026-07-30",
+   "category": "民生",
+   "topic": "台鐵延攬青年人才，8月啟動校園甄試。",
+   "lines": [
+    "版本更新：",
+    "「台鐵」校園招募副本開放",
+    "青年人才掉落率大幅上修中",
+    "履歷冷卻八月校園正式重置"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202607300045.aspx",
+   "img": "cards/0730/C3.webp"
+  },
+  {
+   "id": "C2",
+   "batch": "0730",
+   "date": "2026-07-30",
+   "category": "科技",
+   "topic": "台灣新創科穎達布局無人機熱影像，國防應用受關注。",
+   "lines": [
+    "版本更新：",
+    "「熱影像」偵測模組實裝上線",
+    "無人機場域偵查增益已實裝",
+    "夜間BOSS隱身機率下修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ait/202607300021.aspx",
+   "img": "cards/0730/C2.webp"
+  },
+  {
+   "id": "C10",
+   "batch": "0730",
+   "date": "2026-07-30",
+   "category": "科技",
+   "topic": "市調指出明年DRAM供給續吃緊，NAND Flash轉為寬鬆。",
+   "lines": [
+    "版本更新：",
+    "「DRAM」供給數值下修",
+    "「NAND」庫存模組轉寬鬆中",
+    "記憶體BOSS難度開始分流"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607300242.aspx",
+   "img": "cards/0730/C10.webp"
+  },
+  {
+   "id": "C1",
+   "batch": "0730",
+   "date": "2026-07-30",
+   "category": "財經",
+   "topic": "財星全球500強公布，台積電首度躋身全球百大企業。",
+   "lines": [
+    "版本更新：",
+    "「台積電」百大模組正式實裝",
+    "全球榜單排名數值大幅上修",
+    "晶圓掉落率維持稀有級資源"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aopl/202607300005.aspx",
+   "img": "cards/0730/C1.webp"
   },
   {
    "id": "C9",
