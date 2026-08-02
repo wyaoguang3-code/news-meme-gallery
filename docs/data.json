@@ -1,5 +1,5 @@
 {
- "generated_at": 1785692045,
+ "generated_at": 1785693527,
  "cards": [
   {
    "id": "C9",
@@ -190,6 +190,82 @@
    },
    "source": "https://www.cna.com.tw/news/afe/202608020177.aspx",
    "img": "cards/0802/C1.webp"
+  },
+  {
+   "id": "C4",
+   "batch": "0731",
+   "date": "2026-07-31",
+   "category": "民生",
+   "topic": "勞動部表示違法雇主清單永不下架，並新增重點違規專區。",
+   "lines": [
+    "版本更新：",
+    "「違法雇主」名單永久留場",
+    "重點違規專區正式實裝完成",
+    "老闆隱身機率大幅下修兩格"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202607310269.aspx",
+   "img": "cards/0731/C4.webp"
+  },
+  {
+   "id": "C3",
+   "batch": "0731",
+   "date": "2026-07-31",
+   "category": "民生",
+   "topic": "綜所稅首批退稅入帳，總金額達新台幣610億元。",
+   "lines": [
+    "版本更新：",
+    "「退稅」首批掉落率開啟中",
+    "六百一十億金幣已入帳完成",
+    "財務冷卻時間暫時下修一格"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607310232.aspx",
+   "img": "cards/0731/C3.webp"
+  },
+  {
+   "id": "C2",
+   "batch": "0731",
+   "date": "2026-07-31",
+   "category": "民生",
+   "topic": "中油宣布8月民生天然氣凍漲，工業與電業用氣價格上調。",
+   "lines": [
+    "版本更新：",
+    "「天然氣」民生模組凍結中",
+    "工業場域費率上修五趴整包",
+    "電業BOSS成本再增益中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607310288.aspx",
+   "img": "cards/0731/C2.webp"
+  },
+  {
+   "id": "C1",
+   "batch": "0731",
+   "date": "2026-07-31",
+   "category": "財經",
+   "topic": "主計總處公布2026上半年經濟成長13.72%，創50年最強表現。",
+   "lines": [
+    "版本更新：",
+    "「AI」景氣增益套用完成",
+    "上半年經濟數值上修到滿格",
+    "消費投資掉落率反向爆表中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607310261.aspx",
+   "img": "cards/0731/C1.webp"
   },
   {
    "id": "C9",
