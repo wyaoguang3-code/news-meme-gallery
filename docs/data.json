@@ -1,5 +1,5 @@
 {
- "generated_at": 1785684480,
+ "generated_at": 1785689564,
  "cards": [
   {
    "id": "C9",
@@ -192,117 +192,193 @@
    "img": "cards/0802/C1.webp"
   },
   {
-   "id": "C6",
+   "id": "C9",
    "batch": "0729",
    "date": "2026-07-29",
-   "category": "民生",
-   "topic": "青安3.0問答集出爐，婚育宅貸後離婚將停止超過1000萬元額度的利息補貼。",
+   "category": "文化",
+   "topic": "新北市美術館8月起連4個週末推出戶外劇場，安排馬戲、魔術與市集活動。",
    "lines": [
     "版本更新：",
-    "「青安三點零」問答包實裝",
-    "婚育額度增益正式開放登錄",
-    "關係消滅補貼模組同步下修"
+    "「新北美術館」戶外場域開放",
+    "馬戲魔術模組連四週末實裝",
+    "市集互動掉落率同步上修中"
    ],
    "status": "pending",
    "verdicts": {
     "kas": "pending"
    },
-   "source": "https://www.cna.com.tw/news/afe/202607280327.aspx",
+   "source": "https://www.cna.com.tw/news/aloc/202607290090.aspx",
+   "img": "cards/0729/C9.webp"
+  },
+  {
+   "id": "C8",
+   "batch": "0729",
+   "date": "2026-07-29",
+   "category": "運動",
+   "topic": "英國女子公開賽將登場，台灣由曾雅妮、徐薇淩出賽力拚冠軍獎盃。",
+   "lines": [
+    "版本更新：",
+    "「英國女公開」林克斯副本開啟",
+    "曾雅妮徐薇淩雙人出戰模組",
+    "冠軍獎盃掉落率今日實測中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202607290048.aspx",
+   "img": "cards/0729/C8.webp"
+  },
+  {
+   "id": "C7",
+   "batch": "0729",
+   "date": "2026-07-29",
+   "category": "運動",
+   "topic": "周天成返台出戰台北羽球公開賽，以直落二擊敗黃品銜晉級16強。",
+   "lines": [
+    "版本更新：",
+    "「周天成」台北賽增益觸發",
+    "疲勞值剩70%照樣開局打滿",
+    "直落二通關十六強副本開啟"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202607290386.aspx",
+   "img": "cards/0729/C7.webp"
+  },
+  {
+   "id": "C6",
+   "batch": "0729",
+   "date": "2026-07-29",
+   "category": "財經",
+   "topic": "台燿董事會核准泰國子公司擴廠，第3季起擬投資77.9億泰銖。",
+   "lines": [
+    "版本更新：",
+    "「台燿泰國廠」擴產模組實裝",
+    "資本支出數值77.9億泰銖",
+    "IC載板副本進度持續上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607293004.aspx",
    "img": "cards/0729/C6.webp"
   },
   {
    "id": "C5",
    "batch": "0729",
    "date": "2026-07-29",
-   "category": "財經",
-   "topic": "金管會表示四貸同堂多重借款客戶比例僅低個位數，整體授信風險可控。",
+   "category": "科技",
+   "topic": "央廣推出RtiTalk新住民資訊共創平台，運用AI突破多語交流隔閡。",
    "lines": [
     "版本更新：",
-    "「四貸同堂」BOSS刷新",
-    "多重借款機率維持低個位數",
-    "授信風險模組暫不觸發暴走"
+    "「RtiTalk」共創模組實裝",
+    "AI翻譯冷卻時間全域下修",
+    "百萬新住民公共頻道正式解鎖"
    ],
    "status": "pending",
    "verdicts": {
     "kas": "pending"
    },
-   "source": "https://www.cna.com.tw/news/afe/202607280333.aspx",
+   "source": "https://www.cna.com.tw/news/amov/202607290310.aspx",
    "img": "cards/0729/C5.webp"
   },
   {
    "id": "C4",
    "batch": "0729",
    "date": "2026-07-29",
-   "category": "民生",
-   "topic": "台北承德士商路口7月29日啟用新路型，機車道增為4車道並延長汽車綠燈。",
+   "category": "永續",
+   "topic": "長庚醫院推醫療流程減碳，指出病人住院少1天可減少41公斤碳排。",
    "lines": [
     "版本更新：",
-    "「承德士商」場域重新配置",
-    "機車車道數值由二上修至四",
-    "汽車綠燈冷卻延長三成以上"
+    "「長庚醫療」減碳模組實裝",
+    "住院少一天碳值掉落41公斤",
+    "手術照護流程套用綠色副本"
    ],
    "status": "pending",
    "verdicts": {
     "kas": "pending"
    },
-   "source": "https://www.cna.com.tw/news/aloc/202607280315.aspx",
+   "source": "https://www.cna.com.tw/news/ahel/202607290268.aspx",
    "img": "cards/0729/C4.webp"
   },
   {
    "id": "C3",
    "batch": "0729",
    "date": "2026-07-29",
-   "category": "科技",
-   "topic": "上銀義大利子公司遭駭客網路攻擊，初估對營運無重大影響。",
+   "category": "健康",
+   "topic": "8月1日起18歲以下0.05%阿托品散瞳劑納入健保給付，估36.5萬名兒少受惠。",
    "lines": [
     "版本更新：",
-    "「上銀義廠」觸發駭客副本",
-    "資安防禦通報模組即時實裝",
-    "營運減益數值尚未正式觸發"
+    "「0.05%阿托品」給付實裝",
+    "全服兒少近視控制模組增益",
+    "受惠人數數值上修36.5萬"
    ],
    "status": "pending",
    "verdicts": {
     "kas": "pending"
    },
-   "source": "https://www.cna.com.tw/news/afe/202607280342.aspx",
+   "source": "https://www.cna.com.tw/news/ahel/202607290106.aspx",
    "img": "cards/0729/C3.webp"
   },
   {
    "id": "C2",
    "batch": "0729",
    "date": "2026-07-29",
-   "category": "科技",
-   "topic": "旺宏估eMMC漲價動能延續到第4季，並追加158億元擴產。",
+   "category": "生活",
+   "topic": "觀光署公布上半年來台旅客429萬人次，整體較去年同期穩健成長。",
    "lines": [
     "版本更新：",
-    "「旺宏eMMC」價格上修",
-    "漲價動能延至第四季副本開啟",
-    "一五八億擴產冷卻正式解除"
+    "「來台旅客」人次模組上修",
+    "半年累積數值429萬觸發",
+    "五國客源增益雙位數開局中"
    ],
    "status": "pending",
    "verdicts": {
     "kas": "pending"
    },
-   "source": "https://www.cna.com.tw/news/afe/202607280286.aspx",
+   "source": "https://www.cna.com.tw/news/ahel/202607290054.aspx",
    "img": "cards/0729/C2.webp"
+  },
+  {
+   "id": "C10",
+   "batch": "0729",
+   "date": "2026-07-29",
+   "category": "民生",
+   "topic": "永豐餘生技通報苦茶油苯駢芘超標，台北市啟動全面預防性下架回收。",
+   "lines": [
+    "版本更新：",
+    "「苦茶油」檢驗BOSS觸發",
+    "苯駢芘數值超標全域下架中",
+    "回收任務鎖定500瓶庫存"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202607290374.aspx",
+   "img": "cards/0729/C10.webp"
   },
   {
    "id": "C1",
    "batch": "0729",
    "date": "2026-07-29",
-   "category": "財經",
-   "topic": "壽險業外幣保單前5月新契約保費2334億，創4年新高。",
+   "category": "交通",
+   "topic": "台灣高鐵新世代列車N700ST首組新車將出廠，新增座位插座與114個28吋行李箱容量。",
    "lines": [
     "版本更新：",
-    "「外幣保單」掉落率大幅上修",
-    "前五月保費數值二三三四億",
-    "四年新高收益模組正式實裝"
+    "「N700ST」插座模組實裝",
+    "行李格容量數值上修114箱",
+    "全車廂冷卻時間改長途副本"
    ],
    "status": "pending",
    "verdicts": {
     "kas": "pending"
    },
-   "source": "https://www.cna.com.tw/news/afe/202607280351.aspx",
+   "source": "https://www.cna.com.tw/news/ahel/202607290163.aspx",
    "img": "cards/0729/C1.webp"
   },
   {
