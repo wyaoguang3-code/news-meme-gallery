@@ -1,5 +1,5 @@
 {
- "generated_at": 1785695654,
+ "generated_at": 1785696813,
  "cards": [
   {
    "id": "C9",
@@ -382,6 +382,101 @@
    "img": "cards/0801/C1.webp"
   },
   {
+   "id": "C9",
+   "batch": "0731",
+   "date": "2026-07-31",
+   "category": "文化",
+   "topic": "文化部推出文化幣國片新優惠，消費500點可再送150點。",
+   "lines": [
+    "版本更新：",
+    "「文化幣」國片增益套用中",
+    "五百點消費觸發返利模組包",
+    "影廳副本金幣掉落率上修中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/acul/202607310230.aspx",
+   "img": "cards/0731/C9.webp"
+  },
+  {
+   "id": "C8",
+   "batch": "0731",
+   "date": "2026-07-31",
+   "category": "科技",
+   "topic": "台灣盃火箭競賽決賽在旭海登場，21隊挑戰火箭升空。",
+   "lines": [
+    "版本更新：",
+    "「火箭賽」旭海副本開啟中",
+    "二十一隊推力模組同步上線",
+    "升空觸發機率現場版驗證中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aloc/202607310239.aspx",
+   "img": "cards/0731/C8.webp"
+  },
+  {
+   "id": "C7",
+   "batch": "0731",
+   "date": "2026-07-31",
+   "category": "科技",
+   "topic": "鴻海亞灣超算啟用，全台最大輝達HGX B300 AI集群正式營運。",
+   "lines": [
+    "版本更新：",
+    "「鴻海超算」場域開服完成",
+    "B300模組正式實裝完成",
+    "AI算力數值上修到滿格中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202607310158.aspx",
+   "img": "cards/0731/C7.webp"
+  },
+  {
+   "id": "C6",
+   "batch": "0731",
+   "date": "2026-07-31",
+   "category": "生活",
+   "topic": "折損球棒變棒球椅、海廢做扭蛋，循環商品展現新巧思。",
+   "lines": [
+    "版本更新：",
+    "「廢球棒」轉職椅子模組化",
+    "海廢扭蛋掉落率大幅上修中",
+    "循環商店今日開啟新副本區"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202607310236.aspx",
+   "img": "cards/0731/C6.webp"
+  },
+  {
+   "id": "C5",
+   "batch": "0731",
+   "date": "2026-07-31",
+   "category": "生活",
+   "topic": "食藥署回應蘿蔔糕成分疑義，稱稽查合格且無蘿蔔含量規範。",
+   "lines": [
+    "版本更新：",
+    "「蘿蔔糕」含量模組空白中",
+    "稽查副本判定仍然合格過關",
+    "名稱掉落率維持玄學狀態中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202607310262.aspx",
+   "img": "cards/0731/C5.webp"
+  },
+  {
    "id": "C4",
    "batch": "0731",
    "date": "2026-07-31",
@@ -437,6 +532,25 @@
    },
    "source": "https://www.cna.com.tw/news/afe/202607310288.aspx",
    "img": "cards/0731/C2.webp"
+  },
+  {
+   "id": "C10",
+   "batch": "0731",
+   "date": "2026-07-31",
+   "category": "運動",
+   "topic": "台北羽球公開賽周天成與林俊易攜手晉級男單4強。",
+   "lines": [
+    "版本更新：",
+    "「台北羽球」男單開新局面",
+    "雙核心晉級模組同步實裝中",
+    "四強副本抽籤機率待觸發中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202607310343.aspx",
+   "img": "cards/0731/C10.webp"
   },
   {
    "id": "C1",
