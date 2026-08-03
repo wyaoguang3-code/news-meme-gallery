@@ -1,6 +1,196 @@
 {
- "generated_at": 1785696813,
+ "generated_at": 1785715333,
  "cards": [
+  {
+   "id": "C9",
+   "batch": "0803",
+   "date": "2026-08-03",
+   "category": "科技",
+   "topic": "IBM宣布量子電腦進入量子優勢時代，法人看好廣達、鴻海列第一梯隊。",
+   "lines": [
+    "版本更新：",
+    "「量子優勢」商轉模組開啟",
+    "廣達鴻海列入第一梯隊模組",
+    "運算信任數值今日正式上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://udn.com/news/story/7240/9666529",
+   "img": "cards/0803/C9.webp"
+  },
+  {
+   "id": "C8",
+   "batch": "0803",
+   "date": "2026-08-03",
+   "category": "文化",
+   "topic": "雲門舞集高雄戶外公演吸引逾萬名觀眾，在文化中心圓形廣場演出。",
+   "lines": [
+    "版本更新：",
+    "「雲門舞集」戶外模組實裝",
+    "高雄廣場場域人潮大幅上修",
+    "雨霧光束同步觸發聲音副本"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/acul/202608020098.aspx",
+   "img": "cards/0803/C8.webp"
+  },
+  {
+   "id": "C7",
+   "batch": "0803",
+   "date": "2026-08-03",
+   "category": "國際",
+   "topic": "菲律賓比例模型大賽閉幕，台灣團隊在逾800件作品中勇奪3金2銀7銅。",
+   "lines": [
+    "版本更新：",
+    "「模型隊」獎牌掉落率上修",
+    "八百件副本刷出三金二銀七銅",
+    "馬尼拉場域台灣塗裝全增益"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608020157.aspx",
+   "img": "cards/0803/C7.webp"
+  },
+  {
+   "id": "C6",
+   "batch": "0803",
+   "date": "2026-08-03",
+   "category": "運動",
+   "topic": "第2屆心元盃匹克球公開賽在台大體育館登場，逾500名選手參賽。",
+   "lines": [
+    "版本更新：",
+    "「匹克球」參賽人數模組上修",
+    "台大場域容量突破五百上限",
+    "獎金副本固定掉落十萬金幣"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202608020163.aspx",
+   "img": "cards/0803/C6.webp"
+  },
+  {
+   "id": "C5",
+   "batch": "0803",
+   "date": "2026-08-03",
+   "category": "生活",
+   "topic": "BBC旅遊版刊文介紹1000公里單車環台路線，稱台灣太美了。",
+   "lines": [
+    "版本更新：",
+    "「單車環台」聲量模組上修",
+    "千公里副本開放外媒掉落率",
+    "海岸場域景深數值持續增益"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608020195.aspx",
+   "img": "cards/0803/C5.webp"
+  },
+  {
+   "id": "C4",
+   "batch": "0803",
+   "date": "2026-08-03",
+   "category": "天氣",
+   "topic": "颱風白海豚逼近琉球，8月6日後路徑分歧，北部山區可能防豪雨。",
+   "lines": [
+    "版本更新：",
+    "「白海豚」路徑機率分歧中",
+    "琉球副本暴風半徑持續上修",
+    "北部山區雨量數值提前預載"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608020154.aspx",
+   "img": "cards/0803/C4.webp"
+  },
+  {
+   "id": "C3",
+   "batch": "0803",
+   "date": "2026-08-03",
+   "category": "民生",
+   "topic": "台塑石化宣布8月3日起汽柴油批售價格不調整。",
+   "lines": [
+    "版本更新：",
+    "「汽柴油」本週價格模組凍結",
+    "油箱副本數值維持原始版本",
+    "加油站場域終端價格調參中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608020151.aspx",
+   "img": "cards/0803/C3.webp"
+  },
+  {
+   "id": "C2",
+   "batch": "0803",
+   "date": "2026-08-03",
+   "category": "科技",
+   "topic": "台電雄積三、四線路8月1日竣工送電，楠梓園區供電提升至逾1000MW。",
+   "lines": [
+    "版本更新：",
+    "「楠梓園區」電力模組上修",
+    "半導體副本容量直接開到千兆",
+    "施工冷卻直接縮短兩年結算"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608020028.aspx",
+   "img": "cards/0803/C2.webp"
+  },
+  {
+   "id": "C10",
+   "batch": "0803",
+   "date": "2026-08-03",
+   "category": "國際",
+   "topic": "星宇航空台北－布拉格首條歐洲航線正式啟航，首航抵達布拉格獲水門禮。",
+   "lines": [
+    "版本更新：",
+    "「台北布拉格」航線正式實裝",
+    "歐洲副本冷卻時間直接縮短",
+    "布拉格水門禮場域正式觸發"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/video/news/4355691",
+   "img": "cards/0803/C10.webp"
+  },
+  {
+   "id": "C1",
+   "batch": "0803",
+   "date": "2026-08-03",
+   "category": "財經",
+   "topic": "金融三業2026上半年獲利9042.45億元，全年有望挑戰歷史新高。",
+   "lines": [
+    "版本更新：",
+    "「金融三業」金幣掉落率上修",
+    "半年副本收益數值直接破表",
+    "史高BOSS冷卻提前觸發"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608020177.aspx",
+   "img": "cards/0803/C1.webp"
+  },
   {
    "id": "C9",
    "batch": "0802",
