@@ -90,6 +90,35 @@
               background: var(--chip-on); color: var(--chip-on-text); font-size: 15px; cursor: pointer; }
   #gate .alt { margin-top: 12px; font-size: 12px; color: var(--muted); text-align: center; }
   #gate .alt button { border: 0; background: none; color: var(--muted); text-decoration: underline; cursor: pointer; }
+  /* 批次審核 */
+  #rv { position: fixed; inset: 0; background: rgba(0,0,0,.72); display: none;
+        z-index: 60; align-items: center; justify-content: center; padding: 18px; }
+  #rv.show { display: flex; }
+  #rv .rv-panel { background: var(--bg); border-radius: 16px; width: 100%; max-width: 780px;
+                  max-height: 92vh; display: flex; flex-direction: column; overflow: hidden; }
+  #rv header.rv-h { position: static; display: flex; align-items: center; gap: 10px;
+                    padding: 14px 18px; border-bottom: 1px solid var(--chip); }
+  #rv header.rv-h b { font-size: 16px; }
+  #rv header.rv-h span { color: var(--muted); font-size: 12px; }
+  #rv .rv-list { overflow-y: auto; padding: 6px 14px; }
+  .rv-row { display: grid; grid-template-columns: 76px 1fr; gap: 12px;
+            padding: 12px 4px; border-bottom: 1px solid var(--chip); }
+  .rv-row img { width: 76px; border-radius: 8px; display: block; cursor: zoom-in; }
+  .rv-row .t { font-size: 13px; line-height: 1.4; }
+  .rv-row .t small { color: var(--muted); }
+  .rv-c { display: flex; gap: 6px; margin-top: 8px; align-items: center; flex-wrap: wrap; }
+  .rv-c button { border: 1px solid var(--chip); background: transparent; color: var(--text);
+                 border-radius: 8px; padding: 4px 12px; font-size: 13px; cursor: pointer; }
+  .rv-c button.sel-ok { background: var(--ok); border-color: var(--ok); color: #fff; }
+  .rv-c button.sel-no { background: var(--no); border-color: var(--no); color: #fff; }
+  .rv-c input { flex: 1; min-width: 150px; padding: 5px 9px; border: 1px solid var(--chip);
+                border-radius: 8px; background: transparent; color: var(--text); font-size: 13px; }
+  #rv footer { padding: 12px 18px; border-top: 1px solid var(--chip);
+               display: flex; gap: 10px; align-items: center; }
+  #rv footer .cnt { color: var(--muted); font-size: 13px; flex: 1; }
+  #rv footer button { border: 0; border-radius: 9px; padding: 9px 18px; font-size: 14px;
+                      cursor: pointer; background: var(--chip); color: var(--text); }
+  #rv footer button.go { background: var(--chip-on); color: var(--chip-on-text); }
 </style>
 </head>
 <body>
@@ -118,7 +147,7 @@
 
 <header>
   <h1>版本更新 · 每日新聞梗圖庫<small id="stamp"></small>
-    <span id="userBar" style="display:none"><span id="who"></span><button id="gLogout">登出</button></span>
+    <span id="userBar" style="display:none"><button id="rvOpen">📋 批次審核</button><span id="who"></span><button id="gLogout">登出</button></span>
   </h1>
   <div class="chips" id="dates"><span class="label">日期</span></div>
   <div class="chips" id="cats"><span class="label">分類</span></div>
@@ -127,6 +156,16 @@
 <main><div class="wall" id="wall"></div><div class="empty" id="empty" hidden>沒有符合條件的卡片</div></main>
 
 <div id="box"><div class="panel" id="panel"></div></div>
+
+<div id="rv"><div class="rv-panel">
+  <header class="rv-h"><b>批次審核</b><span id="rvInfo"></span></header>
+  <div class="rv-list" id="rvList"></div>
+  <footer>
+    <span class="cnt" id="rvCnt">已標記 0 筆</span>
+    <button id="rvCancel">關閉</button>
+    <button class="go" id="rvSubmit">送出判定</button>
+  </footer>
+</div></div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script>
@@ -220,6 +259,97 @@ function vote(c, verdict) {
   });
 }
 
+/* ---------- 批次審核 ---------- */
+var RV = {};   // "batch:id" -> {verdict: "ok"|"no"|null, reason: ""}
+
+function passes(c) {
+  if (F.date !== "全部" && c.date !== F.date) return false;
+  if (F.cat !== "全部" && c.category !== F.cat) return false;
+  if (F.stat !== "全部" && STAT_LABEL[c.status] !== F.stat) return false;
+  return true;
+}
+
+function rvCount() {
+  var n = 0;
+  Object.keys(RV).forEach(function (k) { if (RV[k].verdict) n++; });
+  document.getElementById("rvCnt").textContent = "已標記 " + n + " 筆";
+  return n;
+}
+
+function openReview() {
+  RV = {};
+  // 對象 = 目前篩選條件下、我還沒投過票的卡
+  var todo = DATA.filter(function (c) {
+    var v = VOTES[c.batch + ":" + c.id];
+    return passes(c) && !(v && v.me);
+  });
+  document.getElementById("rvInfo").textContent =
+    todo.length ? "共 " + todo.length + " 張未投票（依目前篩選）" : "目前篩選下沒有未投票的卡";
+  var list = document.getElementById("rvList");
+  list.innerHTML = "";
+  todo.forEach(function (c) {
+    var key = c.batch + ":" + c.id;
+    RV[key] = { verdict: null, reason: "" };
+    var row = document.createElement("div");
+    row.className = "rv-row";
+    row.innerHTML =
+      '<img src="' + c.img + '" alt="">' +
+      '<div><div class="t">' + c.topic +
+      ' <small>' + c.id + " · " + c.category + " · " + c.date + "</small></div>" +
+      '<div class="rv-c">' +
+      '<button class="ok">👍 可以</button>' +
+      '<button class="no">👎 不行</button>' +
+      '<input placeholder="問題出在哪?(👎時建議填,會進學習規則)" maxlength="120">' +
+      "</div></div>";
+    var bOk = row.querySelector(".ok"), bNo = row.querySelector(".no"),
+        inp = row.querySelector("input");
+    row.querySelector("img").onclick = function () { open(c); };
+    bOk.onclick = function () {
+      RV[key].verdict = RV[key].verdict === "ok" ? null : "ok";
+      bOk.classList.toggle("sel-ok", RV[key].verdict === "ok");
+      bNo.classList.remove("sel-no");
+      if (RV[key].verdict === "ok") RV[key].verdict = "ok";
+      rvCount();
+    };
+    bNo.onclick = function () {
+      RV[key].verdict = RV[key].verdict === "no" ? null : "no";
+      bNo.classList.toggle("sel-no", RV[key].verdict === "no");
+      bOk.classList.remove("sel-ok");
+      rvCount();
+    };
+    inp.oninput = function () { RV[key].reason = inp.value.trim(); };
+    list.appendChild(row);
+  });
+  rvCount();
+  document.getElementById("rv").classList.add("show");
+}
+
+function submitReview() {
+  var rows = [];
+  Object.keys(RV).forEach(function (k) {
+    if (!RV[k].verdict) return;   // 沒標記的 = 略過
+    var parts = k.split(":");
+    rows.push({
+      batch: parts[0], card: parts[1],
+      user_id: SESSION.user.id, email: MY_EMAIL,
+      verdict: RV[k].verdict, reason: RV[k].reason || "",
+    });
+  });
+  if (!rows.length) { alert("還沒有標記任何一張"); return; }
+  sb.from("gallery_votes").upsert(rows, { onConflict: "batch,card,user_id" })
+    .then(function (r) {
+      if (r.error) { alert("送出失敗：" + r.error.message); return; }
+      document.getElementById("rv").classList.remove("show");
+      loadVotes().then(render);
+      alert("已送出 " + rows.length + " 筆判定");
+    });
+}
+document.getElementById("rvOpen").onclick = openReview;
+document.getElementById("rvCancel").onclick = function () {
+  document.getElementById("rv").classList.remove("show");
+};
+document.getElementById("rvSubmit").onclick = submitReview;
+
 /* ---------- 圖庫 ---------- */
 function chips(elId, values, key) {
   var el = document.getElementById(elId);
@@ -243,9 +373,7 @@ function render() {
   wall.innerHTML = "";
   var shown = 0;
   DATA.forEach(function (c) {
-    if (F.date !== "全部" && c.date !== F.date) return;
-    if (F.cat !== "全部" && c.category !== F.cat) return;
-    if (F.stat !== "全部" && STAT_LABEL[c.status] !== F.stat) return;
+    if (!passes(c)) return;
     shown++;
     var d = document.createElement("div");
     d.className = "pin";
