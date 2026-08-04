@@ -1,6 +1,196 @@
 {
- "generated_at": 1785715333,
+ "generated_at": 1785801955,
  "cards": [
+  {
+   "id": "C9",
+   "batch": "0804",
+   "date": "2026-08-04",
+   "category": "運動",
+   "topic": "亞運棒球培訓隊赴日交流賽首戰8比1勝，劉致榮中繼最快148公里。",
+   "lines": [
+    "版本更新：",
+    "「亞運棒球」赴日副本首勝",
+    "劉致榮球速上修148公里",
+    "八比一清場掉落士氣增益包"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202608030262.aspx",
+   "img": "cards/0804/C9.webp"
+  },
+  {
+   "id": "C8",
+   "batch": "0804",
+   "date": "2026-08-04",
+   "category": "地方",
+   "topic": "新北跨域借閱服務擴至新竹縣，一張借書證可借北部5縣市館藏。",
+   "lines": [
+    "版本更新：",
+    "「借書證」跨域模組擴張中",
+    "北北基桃竹場域全開放實裝",
+    "一本帳號可刷五城藏書副本"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aloc/202608030268.aspx",
+   "img": "cards/0804/C8.webp"
+  },
+  {
+   "id": "C7",
+   "batch": "0804",
+   "date": "2026-08-04",
+   "category": "生活",
+   "topic": "觀光署調查顯示114年國旅旅次與支出雙創新高，出國消費首度破兆。",
+   "lines": [
+    "版本更新：",
+    "「國旅」旅次數值再創新高",
+    "支出模組同步上修5643億",
+    "出國消費破兆BOSS登場"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608030249.aspx",
+   "img": "cards/0804/C7.webp"
+  },
+  {
+   "id": "C6",
+   "batch": "0804",
+   "date": "2026-08-04",
+   "category": "民生",
+   "topic": "統一佳佳旗下BEING sport、BEING fit將於9月結束服務，退出健身房市場。",
+   "lines": [
+    "版本更新：",
+    "「健身房」服務冷卻至9月",
+    "會員轉移退費分支選項實裝",
+    "二十年營運副本正式關閉中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608030242.aspx",
+   "img": "cards/0804/C6.webp"
+  },
+  {
+   "id": "C5",
+   "batch": "0804",
+   "date": "2026-08-04",
+   "category": "科技",
+   "topic": "中央大學石虎一號立方衛星升空，完成台灣自製光纖陀螺儀太空驗證。",
+   "lines": [
+    "版本更新：",
+    "「石虎一號」升空模組實裝",
+    "光纖陀螺儀太空驗證成功觸發",
+    "國產導航核心掉落率上修中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608030201.aspx",
+   "img": "cards/0804/C5.webp"
+  },
+  {
+   "id": "C4",
+   "batch": "0804",
+   "date": "2026-08-04",
+   "category": "科技",
+   "topic": "LINE公告短影音平台LINE VOOM將於9月30日在台灣終止服務。",
+   "lines": [
+    "版本更新：",
+    "「VOOM」短影音模組退場",
+    "台灣服務冷卻至9月30日",
+    "流量回收官方帳號場域實裝"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ait/202608030259.aspx",
+   "img": "cards/0804/C4.webp"
+  },
+  {
+   "id": "C3",
+   "batch": "0804",
+   "date": "2026-08-04",
+   "category": "財經",
+   "topic": "外資匯出帶動新台幣爆量重貶1.46角，收32.438元。",
+   "lines": [
+    "版本更新：",
+    "「新台幣」匯率下修32.438",
+    "外資匯出觸發爆量副本全開",
+    "台股紅盤仍減益台幣防禦力"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608030266.aspx",
+   "img": "cards/0804/C3.webp"
+  },
+  {
+   "id": "C2",
+   "batch": "0804",
+   "date": "2026-08-04",
+   "category": "財經",
+   "topic": "中經院公布7月製造業PMI升至61.5%，連10個月擴張、創近5年最快。",
+   "lines": [
+    "版本更新：",
+    "「PMI」數值上修到61.5",
+    "製造業熱度連十月觸發擴張",
+    "未來展望模組維持高檔擴張"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608030279.aspx",
+   "img": "cards/0804/C2.webp"
+  },
+  {
+   "id": "C10",
+   "batch": "0804",
+   "date": "2026-08-04",
+   "category": "科技",
+   "topic": "萬事達卡調查指出近7成台灣民眾每週使用AI，57%願讓AI當購物管家。",
+   "lines": [
+    "版本更新：",
+    "「AI管家」購物模組上架",
+    "近七成玩家每週觸發一次AI",
+    "授權付款分支五七趴已解鎖"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608030194.aspx",
+   "img": "cards/0804/C10.webp"
+  },
+  {
+   "id": "C1",
+   "batch": "0804",
+   "date": "2026-08-04",
+   "category": "天氣",
+   "topic": "氣象署發布豪雨特報，嘉義縣今晨至上午有局部大雨或豪雨。",
+   "lines": [
+    "版本更新：",
+    "「對流雲」雨場域實裝嘉義",
+    "短延時豪雨機率上修至早上",
+    "強陣風副本同步追加多張圖"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608040007.aspx",
+   "img": "cards/0804/C1.webp"
+  },
   {
    "id": "C9",
    "batch": "0803",
