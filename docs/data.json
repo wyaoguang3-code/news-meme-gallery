@@ -1,5 +1,5 @@
 {
- "generated_at": 1785957749,
+ "generated_at": 1785960601,
  "cards": [
   {
    "id": "C9",
@@ -2103,9 +2103,9 @@
     "世貿一館場域人潮數值上修",
     "7月20日後票券機率下修"
    ],
-   "status": "pending",
+   "status": "rejected",
    "verdicts": {
-    "kas": "pending"
+    "kas": "rejected（我想要驗證新版的負評生圖功能是否能正常運作 請給我一版新的）"
    },
    "source": "",
    "img": "cards/0718/C6R.webp"
