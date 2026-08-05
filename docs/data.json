@@ -1,5 +1,5 @@
 {
- "generated_at": 1785888240,
+ "generated_at": 1785957521,
  "cards": [
   {
    "id": "C9",
@@ -2073,23 +2073,23 @@
    "img": "cards/0726/C1.webp"
   },
   {
-   "id": "C6",
+   "id": "C6R",
    "batch": "0718",
    "date": "2026-07-18",
    "category": "生活",
    "topic": "台北國際夏季旅展7/17-20世貿一館",
    "lines": [
     "版本更新：",
-    "臺北國際夏季旅展正式開幕",
-    "請民眾把握機會前往參觀選購",
-    "注意展期只到7月20日別錯過"
+    "「夏季旅展」副本模組實裝",
+    "世貿一館場域人潮數值上修",
+    "7月20日後票券機率下修"
    ],
-   "status": "rejected",
+   "status": "pending",
    "verdicts": {
-    "kas": "rejected（語氣太正經，不能用）"
+    "kas": "pending"
    },
    "source": "",
-   "img": "cards/0718/C6.webp"
+   "img": "cards/0718/C6R.webp"
   },
   {
    "id": "C5",
