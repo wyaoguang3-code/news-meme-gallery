@@ -1,5 +1,5 @@
 {
- "generated_at": 1785957661,
+ "generated_at": 1785957749,
  "cards": [
   {
    "id": "C9",
@@ -152,6 +152,25 @@
    },
    "source": "https://www.cna.com.tw/news/afe/202608040252.aspx",
    "img": "cards/0805/C2.webp"
+  },
+  {
+   "id": "C10",
+   "batch": "0805",
+   "date": "2026-08-05",
+   "category": "文化",
+   "topic": "故宮南院8月展出亞洲金色織物，15日至23日推出七夕限定版水舞。",
+   "lines": [
+    "版本更新：",
+    "「金縷衣」南院七夕副本實裝",
+    "水舞場域限定夜間同步觸發",
+    "牛郎織女投影掉落率同步上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/acul/202608040234.aspx",
+   "img": "cards/0805/C10.webp"
   },
   {
    "id": "C1",
