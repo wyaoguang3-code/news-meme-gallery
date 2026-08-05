@@ -1,6 +1,177 @@
 {
- "generated_at": 1785801955,
+ "generated_at": 1785888240,
  "cards": [
+  {
+   "id": "C9",
+   "batch": "0805",
+   "date": "2026-08-05",
+   "category": "運動",
+   "topic": "中信兄弟德保拉7局無失分拿下中職生涯第77勝，超越風神成隊史洋投勝投第一。",
+   "lines": [
+    "版本更新：",
+    "「德保拉」勝投數值上修七七",
+    "七局無失分實裝完整壓制模組",
+    "隊史洋投排行榜換BOSS"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202608040319.aspx",
+   "img": "cards/0805/C9.webp"
+  },
+  {
+   "id": "C8",
+   "batch": "0805",
+   "date": "2026-08-05",
+   "category": "天氣",
+   "topic": "中央氣象署更新高溫資訊，大台北等15縣市防高溫，新竹竹東午後達38度。",
+   "lines": [
+    "版本更新：",
+    "「竹東」高溫數值上修至三八",
+    "十五縣市同步開啟炎熱場域",
+    "體感副本冷卻時間直接歸零"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608040139.aspx",
+   "img": "cards/0805/C8.webp"
+  },
+  {
+   "id": "C7",
+   "batch": "0805",
+   "date": "2026-08-05",
+   "category": "生活",
+   "topic": "台南市場與夜市吉祥物「菜奇鴨」、「夜奇鴨」授權商品已帶動逾2000萬元銷售商機。",
+   "lines": [
+    "版本更新：",
+    "「雙鴨」吉祥物商機上修二千萬",
+    "市場夜市場域同步品牌增益",
+    "拍照打卡觸發在地消費模組"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aloc/202608040285.aspx",
+   "img": "cards/0805/C7.webp"
+  },
+  {
+   "id": "C6",
+   "batch": "0805",
+   "date": "2026-08-05",
+   "category": "民生",
+   "topic": "千禧之愛基金會與統一超商推出健康行動值，累積步數與量腰圍可換茶葉蛋、豆漿與無糖茶。",
+   "lines": [
+    "版本更新：",
+    "「五千步」任務掉落茶葉蛋實裝",
+    "腰圍數值同步觸發豆漿模組",
+    "健康副本獎勵改走超商結算"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608040109.aspx",
+   "img": "cards/0805/C6.webp"
+  },
+  {
+   "id": "C5",
+   "batch": "0805",
+   "date": "2026-08-05",
+   "category": "科技",
+   "topic": "雅婷智慧與群環科技簽署MOU，以FedGPT推出標準化軟硬整合地端AI解決方案。",
+   "lines": [
+    "版本更新：",
+    "「雅婷」地端AI模組實裝",
+    "FedGPT標準化先實裝",
+    "企業導入冷卻時間同步下修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608040312.aspx",
+   "img": "cards/0805/C5.webp"
+  },
+  {
+   "id": "C4",
+   "batch": "0805",
+   "date": "2026-08-05",
+   "category": "科技",
+   "topic": "緯創表示AI伺服器需求續旺，下半年有機會優於上半年，交換器業務今年估成長10倍。",
+   "lines": [
+    "版本更新：",
+    "「緯創」AI伺服器增益續旺",
+    "記憶體漲價未改剛需基礎數值",
+    "交換器模組年成長上修十倍"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608040313.aspx",
+   "img": "cards/0805/C4.webp"
+  },
+  {
+   "id": "C3",
+   "batch": "0805",
+   "date": "2026-08-05",
+   "category": "財經",
+   "topic": "虛擬貨幣轉帳逾新台幣3萬元將需補填出生日期與住所地址，新規10月先行上路。",
+   "lines": [
+    "版本更新：",
+    "「虛擬幣」轉帳門檻實裝新規",
+    "三萬元以上觸發身分核對模組",
+    "地址欄位十月套用國內副本"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608040320.aspx",
+   "img": "cards/0805/C3.webp"
+  },
+  {
+   "id": "C2",
+   "batch": "0805",
+   "date": "2026-08-05",
+   "category": "財經",
+   "topic": "富邦媒表示台灣電商價格戰降溫，競爭重心轉向服務力，下半年營運審慎樂觀。",
+   "lines": [
+    "版本更新：",
+    "「富邦媒」價格戰減益生效",
+    "服務力模組改列主要輸出項",
+    "旺季掉落率下半年緩步上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608040252.aspx",
+   "img": "cards/0805/C2.webp"
+  },
+  {
+   "id": "C1",
+   "batch": "0805",
+   "date": "2026-08-05",
+   "category": "財經",
+   "topic": "金管會核准台新銀行合併新光銀行，合併後國內營業據點達204處，僅次合庫。",
+   "lines": [
+    "版本更新：",
+    "「新新併」實裝據點增益模組",
+    "銀行副本上修至二零四據點",
+    "整合冷卻排到明年一月一日"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608040298.aspx",
+   "img": "cards/0805/C1.webp"
+  },
   {
    "id": "C9",
    "batch": "0804",
