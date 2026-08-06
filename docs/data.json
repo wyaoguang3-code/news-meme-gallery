@@ -1,6 +1,196 @@
 {
- "generated_at": 1785992303,
+ "generated_at": 1786060720,
  "cards": [
+  {
+   "id": "C9",
+   "batch": "0807",
+   "date": "2026-08-07",
+   "category": "文化",
+   "topic": "台灣文博會品牌商展登場，魔法阿媽模型與香菜奇異筆成亮點。",
+   "lines": [
+    "版本更新：",
+    "實裝「文博商展」嗅覺模組",
+    "香菜奇異筆特殊掉落率上修",
+    "魔法阿媽模型商店同步實裝"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/acul/202608060175.aspx",
+   "img": "cards/0807/C9.webp"
+  },
+  {
+   "id": "C8",
+   "batch": "0807",
+   "date": "2026-08-07",
+   "category": "運動",
+   "topic": "亞東男排賽台灣2比3惜敗韓國，7日對日本爭取4強門票。",
+   "lines": [
+    "版本更新：",
+    "套用「男排決勝局」冷卻模組",
+    "韓國BOSS五局戰已觸發",
+    "日本四強門票掉落率待結算"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202608060371.aspx",
+   "img": "cards/0807/C8.webp"
+  },
+  {
+   "id": "C7",
+   "batch": "0807",
+   "date": "2026-08-07",
+   "category": "運動",
+   "topic": "統一獅前役遭完封後猛攻8分，以8比2擊敗味全龍。",
+   "lines": [
+    "版本更新：",
+    "實裝「獅隊火力」解封模組",
+    "前版本完封紀錄已正式結算",
+    "八分輸出對龍隊副本已觸發"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202608060374.aspx",
+   "img": "cards/0807/C7.webp"
+  },
+  {
+   "id": "C6",
+   "batch": "0807",
+   "date": "2026-08-07",
+   "category": "科技",
+   "topic": "穎崴、矽格上半年獲利創同期新高，AI先進製程需求帶動拉貨。",
+   "lines": [
+    "版本更新：",
+    "實裝「AI測試座」拉貨模組",
+    "穎崴七月營收數值再創新高",
+    "矽格半年獲利數值同步上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608060355.aspx",
+   "img": "cards/0807/C6.webp"
+  },
+  {
+   "id": "C5",
+   "batch": "0807",
+   "date": "2026-08-07",
+   "category": "科技",
+   "topic": "台灣團隊突破二維半導體介面瓶頸，成果登上Nature Electronics。",
+   "lines": [
+    "版本更新：",
+    "套用「二維半導體」介面模組",
+    "摩爾副本介面瓶頸數值下修",
+    "頂閘電晶體效能掉落率上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ait/202608060238.aspx",
+   "img": "cards/0807/C5.webp"
+  },
+  {
+   "id": "C4",
+   "batch": "0807",
+   "date": "2026-08-07",
+   "category": "生活",
+   "topic": "EZ Way個資監管引發關注，關務署將對關貿公司進行實地查核。",
+   "lines": [
+    "版本更新：",
+    "套用「易利委APP」查核模組",
+    "個資監管場域正式開始巡房",
+    "海關副本實地查核正式觸發"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608060356.aspx",
+   "img": "cards/0807/C4.webp"
+  },
+  {
+   "id": "C3",
+   "batch": "0807",
+   "date": "2026-08-07",
+   "category": "民生",
+   "topic": "勞動部認定Uber Eats疊單工時計算方式違法，每案可罰2萬元以上。",
+   "lines": [
+    "版本更新：",
+    "套用「疊單工時」重算模組",
+    "切半算法判定違規懲罰觸發",
+    "每案罰金數值上修至兩萬起"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608060369.aspx",
+   "img": "cards/0807/C3.webp"
+  },
+  {
+   "id": "C2",
+   "batch": "0807",
+   "date": "2026-08-07",
+   "category": "民生",
+   "topic": "國銀個人放款6月大增2575億元，寫下史上單月新高。",
+   "lines": [
+    "版本更新：",
+    "實裝「國銀放款」擴張副本",
+    "個人額度單月增2575億",
+    "房車理財需求模組同步觸發"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608060364.aspx",
+   "img": "cards/0807/C2.webp"
+  },
+  {
+   "id": "C10",
+   "batch": "0807",
+   "date": "2026-08-07",
+   "category": "天氣",
+   "topic": "颱風白海豚影響，星宇與長榮部分沖繩航班調整或取消。",
+   "lines": [
+    "版本更新：",
+    "套用「白海豚」航班減益模組",
+    "沖繩航線副本冷卻時間上修",
+    "星宇長榮改期機率同步觸發"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608060332.aspx",
+   "img": "cards/0807/C10.webp"
+  },
+  {
+   "id": "C1",
+   "batch": "0807",
+   "date": "2026-08-07",
+   "category": "財經",
+   "topic": "外溢保單上半年新契約保費收入488億元，超越去年全年。",
+   "lines": [
+    "版本更新：",
+    "套用「外溢保單」健走模組",
+    "新契約保費上修至488億",
+    "去年全年進度條已滿格溢出"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608060375.aspx",
+   "img": "cards/0807/C1.webp"
+  },
   {
    "id": "C9",
    "batch": "0806",
