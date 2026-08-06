@@ -1,6 +1,196 @@
 {
- "generated_at": 1785960601,
+ "generated_at": 1785974746,
  "cards": [
+  {
+   "id": "C9",
+   "batch": "0806",
+   "date": "2026-08-06",
+   "category": "運動",
+   "topic": "福爾摩沙國際7人制青少年足球錦標賽在高雄開踢，192隊參賽創新高。",
+   "lines": [
+    "版本更新：",
+    "「青少年足賽」192隊實裝",
+    "高雄球場交流副本正式開啟",
+    "參賽隊伍上限再次大幅上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202608050361.aspx",
+   "img": "cards/0806/C9.webp"
+  },
+  {
+   "id": "C8",
+   "batch": "0806",
+   "date": "2026-08-06",
+   "category": "文化",
+   "topic": "台糖首度參展台灣文博會，推出首款IP角糖與13項文創商品。",
+   "lines": [
+    "版本更新：",
+    "「角糖」文創角色模組實裝",
+    "方糖懷舊數值於文博會上修",
+    "擴香公仔掉落率已同步提高"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608050300.aspx",
+   "img": "cards/0806/C8.webp"
+  },
+  {
+   "id": "C7",
+   "batch": "0806",
+   "date": "2026-08-06",
+   "category": "生活",
+   "topic": "北市貓空年度活動登場，8月將在天空綠洲觀景台推出戶外星空電影院。",
+   "lines": [
+    "版本更新：",
+    "「貓空」星空電影院正式實裝",
+    "天空綠洲夜間場域正式開啟",
+    "花海打卡模組排程同步上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aloc/202608050317.aspx",
+   "img": "cards/0806/C7.webp"
+  },
+  {
+   "id": "C6",
+   "batch": "0806",
+   "date": "2026-08-06",
+   "category": "環境",
+   "topic": "環境部統計向海致敬計畫使海廢減量約66%，第三期計畫將於明年提報。",
+   "lines": [
+    "版本更新：",
+    "「海廢」減量66增益實裝",
+    "海岸清理模組上修第三期版",
+    "海岸垃圾掉落率穩定下修中"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608050310.aspx",
+   "img": "cards/0806/C6.webp"
+  },
+  {
+   "id": "C5",
+   "batch": "0806",
+   "date": "2026-08-06",
+   "category": "民生",
+   "topic": "農業部表示近期雞蛋產量減少但供需仍合理，局部短缺地區將加強調度。",
+   "lines": [
+    "版本更新：",
+    "「雞蛋」局部缺口模組實裝",
+    "洗選規格蛋掉落率暫時下修",
+    "跨區調度冷卻時間同步縮短"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608050328.aspx",
+   "img": "cards/0806/C5.webp"
+  },
+  {
+   "id": "C4",
+   "batch": "0806",
+   "date": "2026-08-06",
+   "category": "娛樂",
+   "topic": "遠傳娛樂事業營運長獲邀擔任國際艾美獎準決賽評審，創台灣本土串流影音平台首例。",
+   "lines": [
+    "版本更新：",
+    "「遠傳影音」評審模組實裝",
+    "國際艾美副本進場門檻上修",
+    "台劇平台聲望數值同步提高"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608050329.aspx",
+   "img": "cards/0806/C4.webp"
+  },
+  {
+   "id": "C3",
+   "batch": "0806",
+   "date": "2026-08-06",
+   "category": "科技",
+   "topic": "中華資安上半年營收獲利創同期新高，AI帶動資安需求與海外營收成長。",
+   "lines": [
+    "版本更新：",
+    "「中華資安」AI增益實裝",
+    "威脅獵捕模組數值同步上修",
+    "海外營收掉落率也同步上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608050331.aspx",
+   "img": "cards/0806/C3.webp"
+  },
+  {
+   "id": "C2",
+   "batch": "0806",
+   "date": "2026-08-06",
+   "category": "財經",
+   "topic": "超商雙雄上半年本業穩健，全家與統一超獲利及EPS皆創同期次高。",
+   "lines": [
+    "版本更新：",
+    "「超商雙雄」獲利增益實裝",
+    "高溫暑假營收數值持續上修",
+    "轉投資獲利掉落率同步上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608050303.aspx",
+   "img": "cards/0806/C2.webp"
+  },
+  {
+   "id": "C10",
+   "batch": "0806",
+   "date": "2026-08-06",
+   "category": "國際",
+   "topic": "迪士尼與TikTok達成協議，允許短影音創作者使用迪士尼角色與場景。",
+   "lines": [
+    "版本更新：",
+    "「迪士尼」角色素材授權實裝",
+    "TikTok創作者掉落率上修",
+    "直式影片跨服分享模組開啟"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aopl/202608050364.aspx",
+   "img": "cards/0806/C10.webp"
+  },
+  {
+   "id": "C1",
+   "batch": "0806",
+   "date": "2026-08-06",
+   "category": "財經",
+   "topic": "雲品國際上半年EPS年增近5成，頤宮下半年插旗阿布達比挹注營運。",
+   "lines": [
+    "版本更新：",
+    "「雲品」海外據點模組實裝",
+    "頤宮阿布達比海外副本開啟",
+    "EPS成長數值接近五成上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608050290.aspx",
+   "img": "cards/0806/C1.webp"
+  },
   {
    "id": "C9",
    "batch": "0805",
