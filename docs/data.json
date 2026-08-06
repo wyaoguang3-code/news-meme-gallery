@@ -1,5 +1,5 @@
 {
- "generated_at": 1785974746,
+ "generated_at": 1785992224,
  "cards": [
   {
    "id": "C9",
@@ -2244,7 +2244,7 @@
    "img": "cards/0726/C2.webp"
   },
   {
-   "id": "C10",
+   "id": "C10R",
    "batch": "0726",
    "date": "2026-07-26",
    "category": "國際",
@@ -2260,7 +2260,7 @@
     "kas": "pending"
    },
    "source": "https://www.cna.com.tw/news/acn/202607260017.aspx",
-   "img": "cards/0726/C10.webp"
+   "img": "cards/0726/C10R.webp"
   },
   {
    "id": "C1",
@@ -2295,7 +2295,7 @@
    ],
    "status": "rejected",
    "verdicts": {
-    "kas": "rejected（我想要驗證新版的負評生圖功能是否能正常運作 請給我一版新的）"
+    "kas": "rejected"
    },
    "source": "",
    "img": "cards/0718/C6R.webp"
