@@ -1,6 +1,177 @@
 {
- "generated_at": 1786060720,
+ "generated_at": 1786147230,
  "cards": [
+  {
+   "id": "C9",
+   "batch": "0808",
+   "date": "2026-08-08",
+   "category": "文化",
+   "topic": "漫畫家AKRU改編護玄小說《因與聿案簿錄》，繁體中文版首集發表展現台日合作成果。",
+   "lines": [
+    "版本更新：",
+    "「因與聿」漫畫改版副本實裝",
+    "台日共製模組今日同步增益",
+    "恐怖氛圍數值今日持續上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/acul/202608070331.aspx",
+   "img": "cards/0808/C9.webp"
+  },
+  {
+   "id": "C8",
+   "batch": "0808",
+   "date": "2026-08-08",
+   "category": "國際",
+   "topic": "台灣10名搜救人員赴土耳其，參加激流救援與無人機整合實地演訓。",
+   "lines": [
+    "版本更新：",
+    "「搜救隊」赴土耳其救援副本",
+    "無人機模組整合激流新場域",
+    "近太魯閣地形難度同步實裝"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aopl/202608080004.aspx",
+   "img": "cards/0808/C8.webp"
+  },
+  {
+   "id": "C7",
+   "batch": "0808",
+   "date": "2026-08-08",
+   "category": "科技",
+   "topic": "高齡健康產業博覽會公布10大高齡友善科技，外骨骼助行與AI跌倒風險評估入列。",
+   "lines": [
+    "版本更新：",
+    "「外骨骼」行走助力增益實裝",
+    "跌倒機率偵測模組今日上線",
+    "長照副本操作難度持續下修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608070284.aspx",
+   "img": "cards/0808/C7.webp"
+  },
+  {
+   "id": "C6",
+   "batch": "0808",
+   "date": "2026-08-08",
+   "category": "運動",
+   "topic": "統一獅總教練林岳平執教生涯達成400勝，成為中職史上最年輕400勝總教練。",
+   "lines": [
+    "版本更新：",
+    "「餅總」400勝模組實裝",
+    "布雷克援護率罕見觸發增益",
+    "最年輕教練四百勝副本通關"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aspt/202608070349.aspx",
+   "img": "cards/0808/C6.webp"
+  },
+  {
+   "id": "C5",
+   "batch": "0808",
+   "date": "2026-08-08",
+   "category": "生活",
+   "topic": "屏東縣在馬尼拉推介4條主題旅遊路線，搶攻菲律賓旅遊市場。",
+   "lines": [
+    "版本更新：",
+    "「屏東」旅遊副本開新線中",
+    "四大場域模組今日同步實裝",
+    "菲律賓客源掉落率持續下修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608070315.aspx",
+   "img": "cards/0808/C5.webp"
+  },
+  {
+   "id": "C4",
+   "batch": "0808",
+   "date": "2026-08-08",
+   "category": "天氣",
+   "topic": "颱風白海豚預計8日及9日最接近台灣，北部與中部山區有大雨或豪雨機率。",
+   "lines": [
+    "版本更新：",
+    "「白海豚」副本逐步靠近中",
+    "台中以北雨量場域持續增益",
+    "山區豪雨觸發機率持續上修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/ahel/202608070279.aspx",
+   "img": "cards/0808/C4.webp"
+  },
+  {
+   "id": "C3",
+   "batch": "0808",
+   "date": "2026-08-08",
+   "category": "民生",
+   "topic": "台北市第3波油品抽驗發現2件苦茶油苯駢芘超標，已要求預防性下架。",
+   "lines": [
+    "版本更新：",
+    "「苦茶油」異常數值已觸發",
+    "苯駢芘模組數值上修到超標",
+    "下架冷卻時間即刻全域實裝"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/aloc/202608070333.aspx",
+   "img": "cards/0808/C3.webp"
+  },
+  {
+   "id": "C2",
+   "batch": "0808",
+   "date": "2026-08-08",
+   "category": "科技",
+   "topic": "宏碁受惠AI應用需求，7月合併營收269.04億元，創近13年同期新高。",
+   "lines": [
+    "版本更新：",
+    "「宏碁」7月營收數值上修",
+    "AI筆電模組觸發營收增益",
+    "十三年同期營收副本已通關"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608070321.aspx",
+   "img": "cards/0808/C2.webp"
+  },
+  {
+   "id": "C1",
+   "batch": "0808",
+   "date": "2026-08-08",
+   "category": "財經",
+   "topic": "財政部預估AI商機支撐台灣外銷，下半年出口續旺，全年出口值可超過8500億美元。",
+   "lines": [
+    "版本更新：",
+    "「出口值」數值上修至8500億",
+    "AI商機模組增益續航再開",
+    "下半年外銷掉落率持續下修"
+   ],
+   "status": "pending",
+   "verdicts": {
+    "kas": "pending"
+   },
+   "source": "https://www.cna.com.tw/news/afe/202608070267.aspx",
+   "img": "cards/0808/C1.webp"
+  },
   {
    "id": "C9",
    "batch": "0807",
